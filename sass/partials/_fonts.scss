@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'LTC Twentieth Century Medium';
+  src: url('../fonts/LTCTwentiethCenturyMedium.eot');
+  src: url('../fonts/LTCTwentiethCenturyMedium.eot?#iefix') format('embedded-opentype'), url('../fonts/LTCTwentiethCenturyMedium.woff2') format('woff2'), url('../fonts/LTCTwentiethCenturyMedium.woff') format('woff'), url('../fonts/LTCTwentiethCenturyMedium.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std Black';
+  src: url('../fonts/HelveticaLTStd-Blk.eot');
+  src: url('../fonts/HelveticaLTStd-Blk.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaLTStd-Blk.woff2') format('woff2'), url('../fonts/HelveticaLTStd-Blk.woff') format('woff'), url('../fonts/HelveticaLTStd-Blk.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std Bold';
+  src: url('../fonts/HelveticaLTStd-Bold.eot');
+  src: url('../fonts/HelveticaLTStd-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaLTStd-Bold.woff2') format('woff2'), url('../fonts/HelveticaLTStd-Bold.woff') format('woff'), url('../fonts/HelveticaLTStd-Bold.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std Light Condensed';
+  src: url('../fonts/HelveticaLTStd-LightCond.eot');
+  src: url('../fonts/HelveticaLTStd-LightCond.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaLTStd-LightCond.woff2') format('woff2'), url('../fonts/HelveticaLTStd-LightCond.woff') format('woff'), url('../fonts/HelveticaLTStd-LightCond.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std Light';
+  src: url('../fonts/HelveticaLTStd-Light.eot');
+  src: url('../fonts/HelveticaLTStd-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaLTStd-Light.woff2') format('woff2'), url('../fonts/HelveticaLTStd-Light.woff') format('woff'), url('../fonts/HelveticaLTStd-Light.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std Roman';
+  src: url('../fonts/HelveticaLTStd-Roman.eot');
+  src: url('../fonts/HelveticaLTStd-Roman.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaLTStd-Roman.woff2') format('woff2'), url('../fonts/HelveticaLTStd-Roman.woff') format('woff'), url('../fonts/HelveticaLTStd-Roman.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+// font variable defs
+$twentieth: 'LTC Twentieth Century Medium', Helvetica, Arial, sans-serif;
+$helvetica: 'Helvetica LT Std Roman', Helvetica, Arial, sans-serif;
+$helvetica-light: 'Helvetica LT Std Light', Helvetica, Arial, sans-serif;
+$helvetica-bold: 'Helvetica LT Std Bold', Helvetica, Arial, sans-serif;
+$helvetica-black: 'Helvetica LT Std Black', Helvetica, Arial, sans-serif;
+$helvetica-light-condensed: 'Helvetica LT Std Light Condensed', Helvetica, Arial, sans-serif;
