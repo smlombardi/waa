@@ -699,6 +699,38 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
+	"\/images\/social-facebook.png": {
+		"ft": 32768,
+		"iS": 867,
+		"oA": 0,
+		"oAP": "\/images\/social-facebook.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/social-linkedin.png": {
+		"ft": 32768,
+		"iS": 958,
+		"oA": 0,
+		"oAP": "\/images\/social-linkedin.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/social-pinterest.png": {
+		"ft": 32768,
+		"iS": 1062,
+		"oA": 0,
+		"oAP": "\/images\/social-pinterest.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/social-tumblr.png": {
+		"ft": 32768,
+		"iS": 932,
+		"oA": 0,
+		"oAP": "\/images\/social-tumblr.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/waa-logo.png": {
 		"ft": 32768,
 		"iS": 20985,

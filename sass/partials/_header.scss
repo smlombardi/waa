@@ -7,6 +7,11 @@
       padding: 10px 13px;
       letter-spacing: .008em;
     }
+    &.current-menu-item {
+      a {
+        color: $maroon;
+      }
+    }
 
     &:first-child {
       a {
@@ -35,7 +40,7 @@
 .navbar-collapse {
   padding-left: 0;
   padding-right: 0;
-  padding-top: 5px;
+  padding-top: 0;
 }
 
 .input-xs {
@@ -45,4 +50,31 @@
   line-height: 1.5;
   border-radius: 0;
   border-color: #b6b7b8;
+}
+
+.waa-header {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  .header-right {
+    width: 122px;
+    form {
+      margin-bottom: 7px;
+    }
+    label {
+      font-size: 9px;
+      font-weight: normal;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+  }
+}
+
+.social-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+  }
 }

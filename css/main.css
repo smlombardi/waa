@@ -36,13 +36,27 @@ body > .container { background-color: #fff; }
 
 .navbar-nav > li > a { color: #6d6e70; text-transform: uppercase; font-size: 12px; padding: 10px 13px; letter-spacing: .008em; }
 
+.navbar-nav > li.current-menu-item a { color: #a30823; }
+
 .navbar-nav > li:first-child a { padding-left: 0; }
 
 .navbar-nav > li:last-child a { padding-right: 0; }
 
 .double-rule { height: 6px; border-top: 1px solid #a30823; border-bottom: 1px solid #a30823; border-left: 0; border-right: 0; background-color: transparent; margin: 0; }
 
-.navbar-collapse { padding-left: 0; padding-right: 0; padding-top: 5px; }
+.navbar-collapse { padding-left: 0; padding-right: 0; padding-top: 0; }
 
 .input-xs { height: 20px; padding: 5px; font-size: 12px; line-height: 1.5; border-radius: 0; border-color: #b6b7b8; }
+
+.waa-header { padding: 15px 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.waa-header .header-right { width: 122px; }
+
+.waa-header .header-right form { margin-bottom: 7px; }
+
+.waa-header .header-right label { font-size: 9px; font-weight: normal; text-transform: uppercase; margin-bottom: 2px; }
+
+.social-links { list-style: none; margin: 0; padding: 0; }
+
+.social-links li { display: inline-block; }
 /*# sourceMappingURL=main.css.map */
