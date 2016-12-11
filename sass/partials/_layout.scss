@@ -1,0 +1,18 @@
+body {
+  background-color: $bg-outer;
+
+  > .container {
+    background-color: $bg-main;
+  }
+}
+
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  max-width: 960px;
+}
+
+.wpb_content_element {
+  margin-bottom: 25px;
+}

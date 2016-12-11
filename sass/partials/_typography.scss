@@ -1,3 +1,42 @@
+// font variable defs
+$twentieth: 'LTC Twentieth Century Medium', Helvetica, Arial, sans-serif;
+$helvetica: 'Helvetica LT Std Roman', Helvetica, Arial, sans-serif;
+$helvetica-light: 'Helvetica LT Std Light', Helvetica, Arial, sans-serif;
+$helvetica-bold: 'Helvetica LT Std Bold', Helvetica, Arial, sans-serif;
+$helvetica-black: 'Helvetica LT Std Black', Helvetica, Arial, sans-serif;
+$helvetica-light-condensed: 'Helvetica LT Std Light Condensed', Helvetica, Arial, sans-serif;
+
 body {
   font-family: $helvetica;
+  line-height: 1.2;
+  color: #6d6e70;
+}
+
+h2.page-header {
+  font-family: $twentieth;
+  color: $maroon;
+  font-size: 50px;
+  line-height: 1.2;
+  padding-bottom: 0px;
+  margin: 20px 0 10px;
+  border-bottom: 0;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: $helvetica;
+  font-size: 16px;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+p {
+  font-family: $helvetica;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.image-caption {
+  font-size: 10px;
+  line-height: 12px;
 }

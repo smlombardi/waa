@@ -513,6 +513,146 @@
 		"oAP": "\/fonts\/bootstrap\/glyphicons-halflings-regular.woff2",
 		"oF": 0
 		},
+	"\/fonts\/HelveticaLTStd-Blk.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-Blk.eot",
+		"oF": 0
+		},
+	"\/fonts\/HelveticaLTStd-Blk.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-Blk.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/HelveticaLTStd-Blk.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-Blk.woff",
+		"oF": 0
+		},
+	"\/fonts\/HelveticaLTStd-Blk.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-Blk.woff2",
+		"oF": 0
+		},
+	"\/fonts\/HelveticaLTStd-Bold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-Bold.eot",
+		"oF": 0
+		},
+	"\/fonts\/HelveticaLTStd-Bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-Bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/HelveticaLTStd-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-Bold.woff",
+		"oF": 0
+		},
+	"\/fonts\/HelveticaLTStd-Bold.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-Bold.woff2",
+		"oF": 0
+		},
+	"\/fonts\/HelveticaLTStd-Light.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-Light.eot",
+		"oF": 0
+		},
+	"\/fonts\/HelveticaLTStd-Light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-Light.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/HelveticaLTStd-Light.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-Light.woff",
+		"oF": 0
+		},
+	"\/fonts\/HelveticaLTStd-Light.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-Light.woff2",
+		"oF": 0
+		},
+	"\/fonts\/HelveticaLTStd-LightCond.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-LightCond.eot",
+		"oF": 0
+		},
+	"\/fonts\/HelveticaLTStd-LightCond.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-LightCond.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/HelveticaLTStd-LightCond.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-LightCond.woff",
+		"oF": 0
+		},
+	"\/fonts\/HelveticaLTStd-LightCond.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-LightCond.woff2",
+		"oF": 0
+		},
+	"\/fonts\/HelveticaLTStd-Roman.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-Roman.eot",
+		"oF": 0
+		},
+	"\/fonts\/HelveticaLTStd-Roman.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-Roman.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/HelveticaLTStd-Roman.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-Roman.woff",
+		"oF": 0
+		},
+	"\/fonts\/HelveticaLTStd-Roman.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/HelveticaLTStd-Roman.woff2",
+		"oF": 0
+		},
 	"\/fonts\/LTCTwentiethCenturyMedium.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -1516,6 +1656,12 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/bootstrap\/page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sass\/bootstrap\/page.php",
+		"oF": 0
+		},
 	"\/sass\/main.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1529,6 +1675,19 @@
 		"oS": 2,
 		"uL": 1
 		},
+	"\/sass\/partials\/_colors.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/css\/_colors.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/partials\/_fonts.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1538,6 +1697,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/css\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/partials\/_layout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/css\/_layout.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

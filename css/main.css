@@ -10,5 +10,21 @@
 
 @font-face { font-family: 'Helvetica LT Std Roman'; src: url("../fonts/HelveticaLTStd-Roman.eot"); src: url("../fonts/HelveticaLTStd-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaLTStd-Roman.woff2") format("woff2"), url("../fonts/HelveticaLTStd-Roman.woff") format("woff"), url("../fonts/HelveticaLTStd-Roman.svg#webfont") format("svg"); font-weight: normal; font-style: normal; }
 
-body { font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; }
+body { font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; line-height: 1.2; color: #6d6e70; }
+
+h2.page-header { font-family: "LTC Twentieth Century Medium", Helvetica, Arial, sans-serif; color: #a30823; font-size: 50px; line-height: 1.2; padding-bottom: 0px; margin: 20px 0 10px; border-bottom: 0; font-weight: normal; }
+
+h3 { font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; font-size: 16px; margin-top: 0; font-weight: normal; }
+
+p { font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; font-size: 12px; line-height: 15px; }
+
+.image-caption { font-size: 10px; line-height: 12px; }
+
+body { background-color: #e2e2e2; }
+
+body > .container { background-color: #fff; }
+
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container { max-width: 960px; }
+
+.wpb_content_element { margin-bottom: 25px; }
 /*# sourceMappingURL=main.css.map */
