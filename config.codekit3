@@ -699,6 +699,14 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
+	"\/images\/waa-logo.png": {
+		"ft": 32768,
+		"iS": 20985,
+		"oA": 0,
+		"oAP": "\/images\/waa-logo.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -1754,6 +1762,12 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/searchform.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/searchform.php",
+		"oF": 0
+		},
 	"\/style.css": {
 		"aP": 0,
 		"bl": 0,
@@ -1763,6 +1777,12 @@
 		"oAP": "\/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/template-part-head.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-part-head.php",
+		"oF": 0
 		},
 	"\/template-part-topnav.php": {
 		"ft": 8192,

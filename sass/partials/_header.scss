@@ -3,13 +3,46 @@
     > a {
       color: #6d6e70;
       text-transform: uppercase;
-      &:first-child {
+      font-size: 12px;
+      padding: 10px 13px;
+      letter-spacing: .008em;
+    }
+
+    &:first-child {
+      a {
         padding-left: 0;
+      }
+    }
+
+    &:last-child {
+      a {
+        padding-right: 0;
       }
     }
   }
 }
+
+.double-rule {
+  height: 6px;
+  border-top: 1px solid $maroon;
+  border-bottom: 1px solid $maroon;
+  border-left: 0;
+  border-right: 0;
+  background-color: transparent;
+  margin: 0;
+}
+
 .navbar-collapse {
   padding-left: 0;
   padding-right: 0;
+  padding-top: 5px;
+}
+
+.input-xs {
+  height: 20px;
+  padding: 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 0;
+  border-color: #b6b7b8;
 }

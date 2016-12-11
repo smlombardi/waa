@@ -13,3 +13,10 @@ function dmbs_dequeue_enqueue_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'dmbs_dequeue_enqueue_scripts', 100 );
 
+/**
+ * Add HTML5 theme support.
+ */
+function wpdocs_after_setup_theme() {
+    add_theme_support( 'html5', array( 'search-form' ) );
+}
+add_action( 'after_setup_theme', 'wpdocs_after_setup_theme' );

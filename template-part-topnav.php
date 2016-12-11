@@ -1,7 +1,14 @@
 
 <?php if ( has_nav_menu( 'main_menu' ) ) : ?>
 
+    <div class="row">
+        <div class="col-md-12">
+            <hr class="double-rule">
+        </div>
+    </div>
+
     <div class="row dmbs-top-menu">
+        
         <nav class="navbar" role="navigation">
             <div class="container">
                 <div class="navbar-header">
