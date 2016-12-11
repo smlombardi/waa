@@ -1,0 +1,15 @@
+.navbar-nav {
+  > li {
+    > a {
+      color: #6d6e70;
+      text-transform: uppercase;
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+  }
+}
+.navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}

@@ -14,6 +14,10 @@ body { font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; line
 
 h2.page-header { font-family: "LTC Twentieth Century Medium", Helvetica, Arial, sans-serif; color: #a30823; font-size: 50px; line-height: 1.2; padding-bottom: 0px; margin: 20px 0 10px; border-bottom: 0; font-weight: normal; }
 
+.wpb_text_column.page-header { margin: 0; border-bottom: 0; }
+
+.wpb_text_column.page-header h2 { font-family: "LTC Twentieth Century Medium", Helvetica, Arial, sans-serif; color: #a30823; font-size: 50px; line-height: 1.2; padding-bottom: 0px; margin: 0; border-bottom: 0; font-weight: normal; }
+
 h3 { font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; font-size: 16px; margin-top: 0; font-weight: normal; }
 
 p { font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; font-size: 12px; line-height: 15px; }
@@ -27,4 +31,10 @@ body > .container { background-color: #fff; }
 .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container { max-width: 960px; }
 
 .wpb_content_element { margin-bottom: 25px; }
+
+.navbar-nav > li > a { color: #6d6e70; text-transform: uppercase; }
+
+.navbar-nav > li > a:first-child { padding-left: 0; }
+
+.navbar-collapse { padding-left: 0; padding-right: 0; }
 /*# sourceMappingURL=main.css.map */

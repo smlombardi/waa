@@ -23,6 +23,22 @@ h2.page-header {
   font-weight: normal;
 }
 
+.wpb_text_column.page-header {
+  margin: 0;
+  border-bottom: 0;
+
+  h2 {
+    font-family: $twentieth;
+    color: $maroon;
+    font-size: 50px;
+    line-height: 1.2;
+    padding-bottom: 0px;
+    margin: 0;
+    border-bottom: 0;
+    font-weight: normal;
+  }
+}
+
 h3 {
   font-family: $helvetica;
   font-size: 16px;
