@@ -6,13 +6,6 @@ body {
   }
 }
 
-.container,
-.navbar-static-top .container,
-.navbar-fixed-top .container,
-.navbar-fixed-bottom .container {
-  max-width: 960px;
-}
-
 .wpb_content_element {
   margin-bottom: 25px;
 }
@@ -22,4 +15,17 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   width: 100%;
+}
+
+.wpb_column {
+  &:first-child {
+    > .vc_column-inner {
+      padding-left: 15px;
+    }
+  }
+  &:last-child {
+    > .vc_column-inner {
+      padding-right: 15px;
+    }
+  }
 }

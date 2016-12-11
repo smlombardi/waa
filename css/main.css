@@ -12,7 +12,7 @@
 
 body { font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; line-height: 1.2; color: #6d6e70; }
 
-h2.page-header { font-family: "LTC Twentieth Century Medium", Helvetica, Arial, sans-serif; color: #a30823; font-size: 50px; line-height: 1.2; padding-bottom: 0px; margin: 20px 0 10px; border-bottom: 0; font-weight: normal; }
+h2.page-header { font-family: "LTC Twentieth Century Medium", Helvetica, Arial, sans-serif; color: #a30823; font-size: 50px; line-height: 1.2; padding-bottom: 0px; margin: -15px 0 10px; border-bottom: 0; font-weight: normal; }
 
 .wpb_text_column.page-header { margin: 0; border-bottom: 0; }
 
@@ -24,17 +24,21 @@ p { font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; font-si
 
 .image-caption { font-size: 10px; line-height: 12px; }
 
+.image-caption p { margin-bottom: 0; }
+
 body { background-color: #e2e2e2; }
 
 body > .container { background-color: #fff; }
-
-.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container { max-width: 960px; }
 
 .wpb_content_element { margin-bottom: 25px; }
 
 .vc_column_container > .vc_column-inner { box-sizing: border-box; padding-left: 30px; padding-right: 30px; width: 100%; }
 
-.navbar-nav > li > a { color: #6d6e70; text-transform: uppercase; font-size: 12px; padding: 10px 13px; letter-spacing: .008em; }
+.wpb_column:first-child > .vc_column-inner { padding-left: 15px; }
+
+.wpb_column:last-child > .vc_column-inner { padding-right: 15px; }
+
+.navbar-nav > li > a { color: #6d6e70; text-transform: uppercase; font-size: 12px; padding: 10px 14px; letter-spacing: .0255em; }
 
 .navbar-nav > li.current-menu-item a { color: #a30823; }
 
