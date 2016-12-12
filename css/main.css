@@ -65,4 +65,8 @@ body > .container { background-color: #fff; }
 .social-links { list-style: none; margin: 0; padding: 0; }
 
 .social-links li { display: inline-block; }
+
+.dmbs-footer .footer-rule { background-color: #6d6e70; height: 1px; margin: 40px 0; }
+
+.dmbs-footer h3 { font-family: "LTC Twentieth Century Medium", Helvetica, Arial, sans-serif; color: #a30823; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; font-weight: normal; margin-bottom: 3px; }
 /*# sourceMappingURL=main.css.map */

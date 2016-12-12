@@ -1,0 +1,16 @@
+.dmbs-footer {
+  .footer-rule {
+    background-color: $gray;
+    height: 1px;
+    margin: 40px 0;
+  }
+  h3 {
+    font-family: $twentieth;
+    color: $maroon;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    font-weight: normal;
+    margin-bottom: 3px;
+  }
+}
