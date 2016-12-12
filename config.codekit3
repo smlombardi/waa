@@ -455,18 +455,6 @@
 		"oAP": "\/.sass-cache\/8a10681b74632081df95f148b6101cbad2f6a187\/_vendor-prefixes.scssc",
 		"oF": 0
 		},
-	"\/.stylelintignore": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.stylelintignore",
-		"oF": 0
-		},
-	"\/.stylelintrc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.stylelintrc",
-		"oF": 0
-		},
 	"\/css\/bootstrap.css": {
 		"aP": 0,
 		"bl": 0,
