@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "25444",
 "files": {
+	"\/.eslintrc.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.eslintrc-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
@@ -447,6 +455,18 @@
 		"oAP": "\/.sass-cache\/8a10681b74632081df95f148b6101cbad2f6a187\/_vendor-prefixes.scssc",
 		"oF": 0
 		},
+	"\/.stylelintignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.stylelintignore",
+		"oF": 0
+		},
+	"\/.stylelintrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.stylelintrc",
+		"oF": 0
+		},
 	"\/css\/bootstrap.css": {
 		"aP": 0,
 		"bl": 0,
@@ -472,6 +492,12 @@
 		"oAP": "\/css\/main-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/css\/main.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/main.css.map",
+		"oF": 0
 		},
 	"\/fonts\/bootstrap\/glyphicons-halflings-regular.eot": {
 		"ft": 8192,
