@@ -4,6 +4,9 @@
     height: 1px;
     margin: 40px 0;
   }
+  .larger {
+    font-size: 15px;
+  }
   h3 {
     font-family: $twentieth;
     color: $maroon;
@@ -12,5 +15,9 @@
     letter-spacing: .04em;
     font-weight: normal;
     margin-bottom: 3px;
+  }
+  p {
+    font-size: 12px;
+    line-height: 16px;
   }
 }
