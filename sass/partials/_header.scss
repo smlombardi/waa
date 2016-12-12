@@ -12,6 +12,11 @@
         color: $maroon;
       }
     }
+    &.menu-item-has-children {
+      .caret {
+        display: none;
+      }
+    }
 
     &:first-child {
       a {
