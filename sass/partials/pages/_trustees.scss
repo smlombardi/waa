@@ -13,6 +13,10 @@
       font-family: $helvetica-light;
       line-height: 1.33;
       margin-bottom: 6px;
+      i {
+        font-style: normal;
+        font-family: $helvetica-light-oblique;
+      }
     }
 
     h4 {
