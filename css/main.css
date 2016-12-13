@@ -58,7 +58,11 @@ body > .container { background-color: #fff; }
 
 @media (max-width: 599px) { .row-flex > div { width: 100% !important; } }
 
-.navbar-nav > li > a { color: #6d6e70; text-transform: uppercase; font-size: 12px; padding: 10px 14px; letter-spacing: .0255em; }
+textarea { border-color: #bfbfbf !important; }
+
+.navbar-nav > li > a { color: #6d6e70; text-transform: uppercase; font-size: 12px; padding: 10px 13px; letter-spacing: .0255em; }
+
+.navbar-nav > li > a:hover { background-color: transparent; }
 
 .navbar-nav > li.current-menu-item a { color: #a30723; }
 
@@ -121,4 +125,22 @@ body > .container { background-color: #fff; }
 .trustees .trustee-pdf-downloads ul li { margin-bottom: 10px; }
 
 .trustees .trustee-pdf-downloads ul li a { color: #fff; text-transform: uppercase; font-size: 9px; background-color: #6d6e70; padding: 6px 6px 4px; border-radius: 6px; }
+
+.page.page-id-87 h4 { font-weight: bold; font-size: 14px; color: #a30723; }
+
+.page.page-id-87 .second-column h4 { margin-top: 0; }
+
+.page.page-id-87 ul { padding-left: 1em; }
+
+.page.page-id-87 li { margin-bottom: 10px; }
+
+.page.page-id-87 li b { font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; color: #a30723; font-weight: normal; }
+
+.page.page-id-87 form { padding: 10px; border: 1px dashed #6d6e70; }
+
+.page.page-id-87 form input[type='submit'] { background-color: #fff; border: 0; color: #a30723; text-transform: uppercase; font-size: 14px; margin-left: 10px; }
+
+.page.page-id-87 .gform_footer { margin-top: 0; padding-top: 0; }
+
+.page.page-id-87 .address { margin-left: 20px; }
 /*# sourceMappingURL=main.css.map */
