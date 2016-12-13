@@ -23,6 +23,7 @@ body {
       padding-left: 15px;
     }
   }
+
   &:last-child {
     > .vc_column-inner {
       padding-right: 15px;
@@ -30,3 +31,6 @@ body {
   }
 }
 
+.row-flex {
+  display: flex;
+}

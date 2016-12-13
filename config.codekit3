@@ -767,6 +767,18 @@
 		"oAP": "\/page-no_title.php",
 		"oF": 0
 		},
+	"\/page-trustees.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-trustees.php",
+		"oF": 0
+		},
+	"\/page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page.php",
+		"oF": 0
+		},
 	"\/sass\/bootstrap.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1809,6 +1821,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/css\/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/partials\/pages\/_trustees.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/partials\/css\/_trustees.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -5,11 +5,20 @@ $helvetica-light: 'Helvetica LT Std Light', Helvetica, Arial, sans-serif;
 $helvetica-bold: 'Helvetica LT Std Bold', Helvetica, Arial, sans-serif;
 $helvetica-black: 'Helvetica LT Std Black', Helvetica, Arial, sans-serif;
 $helvetica-light-condensed: 'Helvetica LT Std Light Condensed', Helvetica, Arial, sans-serif;
+$body-text-size: 14px;
 
 body {
   font-family: $helvetica;
   line-height: 1.2;
   color: #6d6e70;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: normal;
 }
 
 h2.page-header {
@@ -48,16 +57,22 @@ h3 {
 
 p {
   font-family: $helvetica;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: $body-text-size;
+  line-height: 1.25;
 }
 
 .image-caption {
-
   p {
     font-size: 10px;
-  line-height: 12px;
+    line-height: 12px;
     margin-bottom: 0;
     margin-right: 20px;
   }
+}
+
+.photo-credit {
+  font-family: $helvetica-light;
+  font-size: 9px;
+  margin-top: 3px;
+  margin-bottom: 10px;
 }
