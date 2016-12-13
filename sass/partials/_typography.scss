@@ -21,6 +21,10 @@ h3,
 h4,
 h5 {
   font-weight: normal;
+
+  b {
+    font-weight: normal;
+  }
 }
 
 h2.page-header {
@@ -64,6 +68,7 @@ p {
 }
 
 .image-caption {
+  margin-top: 5px;
   p {
     font-size: 10px;
     line-height: 12px;

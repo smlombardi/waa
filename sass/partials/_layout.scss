@@ -33,4 +33,13 @@ body {
 
 .row-flex {
   display: flex;
+  @include for-phone-only {
+    flex-direction: column;
+  }
+
+  > div {
+    @include for-phone-only {
+      width: 100% !important;
+    }
+  }
 }

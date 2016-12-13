@@ -40,9 +40,9 @@ get_header(); ?>
 
                   <li>
                     <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" class="img-responsive" />
-                    <div class="photo-credit">
+                    <!--<div class="photo-credit">
                       <?php echo $credit; ?>
-                    </div>
+                    </div>-->
                     <div class="image-caption">
                       <p><?php echo $caption; ?></p>
                     </div>
