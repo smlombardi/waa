@@ -12,9 +12,6 @@
   .news-content {
     font-family: $georgia;
     font-size: 13px;
-    i {
-      display: block;
-    }
   }
 
   .news-source {
@@ -47,5 +44,8 @@
     a {
       color: $maroon;
     }
+  }
+  .byline {
+    font-style: italic;
   }
 }

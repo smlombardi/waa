@@ -64,6 +64,7 @@ get_header(); ?>
                         ?>
                       
                         <b><?php echo $newsTitle; ?>:</b> <?php echo $newsContent; ?>
+                        <div class="byline"><?php the_field('byline'); ?></div>
                       
                       </div>
 

@@ -150,8 +150,6 @@ textarea { border-color: #bfbfbf !important; }
 
 .page-press .news-content { font-family: Georgia, "Times New Roman", Times, serif; font-size: 13px; }
 
-.page-press .news-content i { display: block; }
-
 .page-press .news-source { font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; font-size: 12px; margin-bottom: 2px; }
 
 .page-press .news-date { font-family: "Helvetica LT Std Light", Helvetica, Arial, sans-serif; font-size: 12px; margin-bottom: 10px; }
@@ -165,4 +163,6 @@ textarea { border-color: #bfbfbf !important; }
 .page-press .news-past-link { margin-top: 40px; font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; }
 
 .page-press .news-past-link a { color: #a30723; }
+
+.page-press .byline { font-style: italic; }
 /*# sourceMappingURL=main.css.map */
