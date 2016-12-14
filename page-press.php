@@ -21,43 +21,56 @@ get_header(); ?>
 
         <?php // theloop
         if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <div class="row-flex">
-              <div class="col-left trustee-list">
-                <?php the_field('trustees'); ?>
-              </div>
-              
-              <div class="col-main"><?php the_content(); ?></div>
-              
-              <div class="col-right">
-                <?php if( have_rows('photos') ): ?>
-                <ul class="list-unstyled trustee-photos">
-                  
-                    <?php while ( have_rows('photos') ) : the_row();
-                      $image = get_sub_field('image');
-                      $credit = get_sub_field('photo_credit');
-                      $caption = get_sub_field('caption');
-                    ?>
+        <div class="row">
 
-                  <li>
-                    <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" class="img-responsive" />
-                    <!--<div class="photo-credit">
-                      <?php echo $credit; ?>
-                    </div>-->
-                    <div class="image-caption">
-                      <p><?php echo $caption; ?></p>
-                    </div>
-                  </li>
 
-                  <?php endwhile; ?>
+          <?php
+				    $args = array( 'post_type' => 'news_item', 'posts_per_page' => 2, 'orderby' => 'date', 'order' => 'DESC' );
+				    $loop = new WP_Query( $args );
+            $post_idx = 0;
+				    while ( $loop->have_posts() ) : $loop->the_post(); $post_idx++; ?>
+            <div class="col-md-4 col-<?php echo $post_idx; ?>">
+              <h3 class="press-head">
+                In the News
+              </h3>
 
-                </ul>
-
-                <?php endif; ?>
-                <div class="trustee-pdf-downloads">
-                  <h3>DOWNLOAD PDF FILES:</h3>
-                  <?php the_field('pdf_downloads'); ?>
+              <div class="news-item-block">
+                <?php 
+                  $newsImage = get_field('lede_image');
+                ?>
+                <div class="news-image">
+                <img src="<?php echo $newsImage['url']; ?>" alt="<?php echo $newsImage['alt']; ?>" class="img-responsive" />
+                <div class="photo-credit"><?php echo $newsImage['caption']; ?></div>
                 </div>
+
+
+                <div class="news-source"><?php the_field('news_source'); ?></div>
+                <div class="news-date">
+                  <?php 
+                    $event_date = get_field('news_item_date');
+                    $fancy_date = date('F j, Y',strtotime($event_date));
+                    echo $fancy_date;
+                    ?>
+                </div>
+                <div class="news-content">
+                  <?php
+                    $newsContent = get_the_content();
+                    $newsTitle = get_the_title();
+                  ?>
+                
+                  <b><?php echo $newsTitle; ?>:</b> <?php echo $newsContent; ?>
+                
+                </div>
+
+                <div class="news-link"><a href="">Read More</a> &raquo;</div>
               </div>
+            </div>
+          <?php endwhile;  ?>  <!-- end the loop -->
+        
+        
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+            
         </div>
 
         <?php endwhile; ?>

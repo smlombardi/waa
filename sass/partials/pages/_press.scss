@@ -1,0 +1,40 @@
+.page-id-203 {
+  .col-md-4 {
+    h3 {
+      text-transform: uppercase;
+      font-family: $helvetica-bold;
+      color: $gray;
+    }
+  }
+
+  .col-2 {
+    h3 {
+      display: none;
+    }
+  }
+
+  .news-content {
+    font-family: $georgia;
+  }
+
+  .news-source {
+    font-family: $helvetica-bold;
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+
+  .news-date {
+    font-family: $helvetica-light;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .news-link {
+    margin-top: 10px;
+    a {
+      font-family: $georgia;
+      color: $maroon;
+      text-transform: uppercase;
+    }
+  }
+}
