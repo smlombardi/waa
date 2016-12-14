@@ -22,13 +22,14 @@ get_header(); ?>
         <?php // theloop
         if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div class="row">
-          <!-- in the news -->
+          <!-- in the news, lwft side of page -->
           <div class="col-md-8">
               <div class="row">
                 <div class="col-md-6">
                   <h3>In the News</h3>
                 </div>
               </div>
+              <!-- row with the 2 news items -->
               <div class="row">
                 <?php
                   $args = array( 'post_type' => 'news_item', 'posts_per_page' => 2, 'orderby' => 'date', 'order' => 'DESC' );
@@ -70,19 +71,46 @@ get_header(); ?>
                     </div>
                   </div>
                 <?php endwhile;  ?>  <!-- end the loop -->
-        
+      
+              </div> <!-- end row with news item loop -->
+
+              <!--<div class="row news-past-link">
+                <div class="col-md-6 col-md-offset-6">
+                <a href="">PAST NEWS</a> Archive
+                </div>
+              </div>-->
+
+
+   
+          </div> <!-- end in the news/left side of page -->
+
+          <!-- right side of page -->
+          <div class="col-md-4">
+            <h3>Press Releases</h3>
+             <div class="news-item-block">
+             loop of press releases here
+
+             </div>
             
+          
+          
+          
+          </div> <!-- end right side of page -->
+          
         </div>
 
-
-          
+        <div class="row">
+          <div class="col-md-8">
+              <div class="row news-past-link">
+              <div class="col-md-6 col-md-offset-6">
+              <a href="">PAST NEWS</a> Archive
+              </div>
+            </div>
           </div>
           <div class="col-md-4">
-          
-          
-          
+           <div class="news-past-link">
+              <a href="">PAST PRESS RELEASES</a> Archive
           </div>
-          
         </div>
         
 

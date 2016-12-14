@@ -41,4 +41,11 @@
     border-top: 4px solid #000;
     padding-top: 10px;
   }
+  .news-past-link {
+    margin-top: 40px;
+    font-family: $helvetica-bold;
+    a {
+      color: $maroon;
+    }
+  }
 }

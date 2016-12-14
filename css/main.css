@@ -38,7 +38,7 @@ p { font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; font-si
 
 .image-caption p { font-size: 10px; line-height: 12px; margin-bottom: 0; margin-right: 20px; }
 
-.photo-credit { font-family: "Helvetica LT Std Light", Helvetica, Arial, sans-serif; font-size: 9px; margin-top: 3px; margin-bottom: 10px; }
+.photo-credit { font-family: "Helvetica LT Std Light", Helvetica, Arial, sans-serif; font-size: 9px; margin-bottom: 10px; margin-top: 5px; text-align: right; }
 
 body { background-color: #e2e2e2; }
 
@@ -161,4 +161,8 @@ textarea { border-color: #bfbfbf !important; }
 .page-press .news-link a { font-family: Georgia, "Times New Roman", Times, serif; color: #a30723; text-transform: uppercase; }
 
 .page-press .news-item-block { border-top: 4px solid #000; padding-top: 10px; }
+
+.page-press .news-past-link { margin-top: 40px; font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; }
+
+.page-press .news-past-link a { color: #a30723; }
 /*# sourceMappingURL=main.css.map */
