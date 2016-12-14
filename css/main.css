@@ -146,19 +146,19 @@ textarea { border-color: #bfbfbf !important; }
 
 .page.page-id-87 .address { margin-left: 20px; }
 
-.page-id-203 h3 { text-transform: uppercase; font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; color: #6d6e70; margin-bottom: 5px; }
+.page-press h3 { text-transform: uppercase; font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; color: #6d6e70; margin-bottom: 5px; }
 
-.page-id-203 .news-content { font-family: Georgia, "Times New Roman", Times, serif; font-size: 13px; }
+.page-press .news-content { font-family: Georgia, "Times New Roman", Times, serif; font-size: 13px; }
 
-.page-id-203 .news-content i { display: block; }
+.page-press .news-content i { display: block; }
 
-.page-id-203 .news-source { font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; font-size: 12px; margin-bottom: 2px; }
+.page-press .news-source { font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; font-size: 12px; margin-bottom: 2px; }
 
-.page-id-203 .news-date { font-family: "Helvetica LT Std Light", Helvetica, Arial, sans-serif; font-size: 12px; margin-bottom: 10px; }
+.page-press .news-date { font-family: "Helvetica LT Std Light", Helvetica, Arial, sans-serif; font-size: 12px; margin-bottom: 10px; }
 
-.page-id-203 .news-link { margin-top: 10px; }
+.page-press .news-link { margin-top: 10px; }
 
-.page-id-203 .news-link a { font-family: Georgia, "Times New Roman", Times, serif; color: #a30723; text-transform: uppercase; }
+.page-press .news-link a { font-family: Georgia, "Times New Roman", Times, serif; color: #a30723; text-transform: uppercase; }
 
-.page-id-203 .news-item-block { border-top: 4px solid #000; padding-top: 10px; }
+.page-press .news-item-block { border-top: 4px solid #000; padding-top: 10px; }
 /*# sourceMappingURL=main.css.map */
