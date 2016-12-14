@@ -1955,6 +1955,12 @@
 		"oA": 2,
 		"oAP": "\/template-part-topnav.php",
 		"oF": 0
+		},
+	"\/woocommerce.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce.php",
+		"oF": 0
 		}
 	},
 "hooks": [

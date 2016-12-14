@@ -7,7 +7,7 @@
     <div class="waa-header">
 
         <div class="header-logo">
-            <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/images/waa-logo.png">
+            <a href="/"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/images/waa-logo.png"></a>
         </div>
         <div class="header-right">
             <?php get_search_form(); ?>

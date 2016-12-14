@@ -4,36 +4,46 @@
     font-size: 14px;
     color: $maroon;
   }
+
   .second-column h4 {
     margin-top: 0;
   }
+
   ul {
     padding-left: 1em;
   }
+
   li {
     margin-bottom: 10px;
+
     b {
       font-family: $helvetica-bold;
       color: $maroon;
       font-weight: normal;
     }
   }
-  form {
-    padding: 10px;
-    border: 1px dashed $gray;
-    input[type='submit'] {
-      background-color: #fff;
-      border: 0;
-      color: $maroon;
-      text-transform: uppercase;
-      font-size: 14px;
-      margin-left: 10px;
+
+  .dmbs-content {
+    form {
+      padding: 10px;
+      border: 1px dashed $gray;
+
+      input[type='submit'] {
+        background-color: #fff;
+        border: 0;
+        color: $maroon;
+        text-transform: uppercase;
+        font-size: 14px;
+        margin-left: 10px;
+      }
     }
   }
+
   .gform_footer {
     margin-top: 0;
     padding-top: 0;
   }
+
   .address {
     margin-left: 20px;
   }
