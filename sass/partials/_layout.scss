@@ -6,6 +6,23 @@ body {
   }
 }
 
+// damn bootstrap
+@media all {
+  @media (min-width: 1200px) {
+    .container {
+      width: 860px;
+    }
+  }
+}
+
+@media all {
+  @media (min-width: 992px) {
+    .container {
+      width: 860px;
+    }
+  }
+}
+
 .wpb_content_element {
   margin-bottom: 10px;
 }

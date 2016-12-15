@@ -1,8 +1,9 @@
 .dmbs-footer {
   .footer-rule {
-    background-color: $gray;
+    background-color: transparent;
     height: 1px;
     margin: 20px 0 30px;
+    border-top: 1px solid #6d6e70;
   }
   .larger {
     font-size: 15px;

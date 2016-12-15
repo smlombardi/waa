@@ -7,7 +7,7 @@
 		"uuidString": "E5A23768-C421-409E-8E37-A603BECCC3B5"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/.eslintrc.json": {
 		"ft": 524288,
@@ -769,6 +769,14 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
+	"\/images\/member-patterson-michael.jpg": {
+		"ft": 16384,
+		"iS": 17625,
+		"oA": 0,
+		"oAP": "\/images\/member-patterson-michael.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/social-facebook.png": {
 		"ft": 32768,
 		"iS": 867,
@@ -833,6 +841,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-trustees.php",
+		"oF": 0
+		},
+	"\/page-welcome.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-welcome.php",
 		"oF": 0
 		},
 	"\/page.php": {
@@ -1939,6 +1953,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/partials\/pages\/_welcome.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/partials\/css\/_welcome.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/screenshot.png": {
 		"ft": 32768,
 		"iS": 101553,
@@ -2434,6 +2461,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -2597,6 +2628,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -2962,6 +2997,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -3193,6 +3232,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -4026,6 +4069,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {

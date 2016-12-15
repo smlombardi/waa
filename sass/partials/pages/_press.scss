@@ -1,13 +1,12 @@
 .page-press {
-
+  .dmbs-main {
     h3 {
       text-transform: uppercase;
       font-family: $helvetica-bold;
       color: $gray;
       margin-bottom: 5px;
     }
-
-
+  }
 
   .news-content {
     font-family: $georgia;
@@ -28,23 +27,28 @@
 
   .news-link {
     margin-top: 10px;
+
     a {
       font-family: $georgia;
       color: $maroon;
       text-transform: uppercase;
     }
   }
+
   .news-item-block {
     border-top: 4px solid #000;
     padding-top: 10px;
   }
+
   .news-past-link {
     margin-top: 40px;
     font-family: $helvetica-bold;
+
     a {
       color: $maroon;
     }
   }
+
   .byline {
     font-style: italic;
   }
