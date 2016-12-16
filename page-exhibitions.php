@@ -48,10 +48,20 @@ get_header(); ?>
                 </div>
 
                 <?php endif; ?>
+
+
   
   
         </div>
-      
+        <div class="row">
+          <div class="col-md-6 caption"><?php the_content(); ?></div>
+          <div class="col-md-6">
+              <div class="opportunities">
+                <div class="opportunities-title">opportunities</div>
+    There are many opportunities to submit to shows throughout the year. For upcoming submissions and to download Submissions Forms, <a href="">CLICK HERE</a>
+                </div>
+          </div>
+        </div>
 
         <?php endwhile; ?>
         <?php else: ?>
