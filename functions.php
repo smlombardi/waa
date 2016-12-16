@@ -73,3 +73,7 @@ function add_slug_body_class( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'add_slug_body_class' );
+
+function wpse_custom_excerpts($limit) {
+    return wp_trim_words(get_the_excerpt(), $limit, '&hellip;&nbsp;' . '<a href="'. esc_url( get_permalink() ) . '">'  . __( 'More', 'wpse' ) . '</a>'. '&nbsp;&raquo;');
+}

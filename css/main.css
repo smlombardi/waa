@@ -134,6 +134,14 @@ textarea { border-color: #bfbfbf !important; }
 
 .page-press .byline { font-style: italic; }
 
+.page-press .press-release-block { font-family: Georgia, "Times New Roman", Times, serif; font-size: 13px; }
+
+.page-press .press-release-block .date { font-size: 12px; }
+
+.page-press .press-release-block h4 { font-weight: bold; font-size: 14px; }
+
+.page-press .press-release-block a { text-transform: uppercase; }
+
 .page-welcome .row-flex { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 
 .page-welcome .dmbs-content { min-height: 700px; background-image: url("../images/member-patterson-michael.jpg"); background-repeat: no-repeat; background-position: 30px bottom; margin-bottom: -21px; position: relative; }

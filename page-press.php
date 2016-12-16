@@ -87,13 +87,33 @@ get_header(); ?>
 
           <!-- right side of page -->
           <div class="col-md-4">
+          
             <h3>Press Releases</h3>
              <div class="news-item-block">
-             loop of press releases here
+               <?php 
+                $args = array( 'post_type' => 'press_release', 'posts_per_page' => e, 'orderby' => 'date', 'order' => 'DESC' );
+                  $loop = new WP_Query( $args );
+                  $post_idx = 0;
+                  while ( $loop->have_posts() ) : $loop->the_post(); $post_idx++; ?>
+
+             <div class="press-release-block">
+                  <div class="date">
+                    <?php 
+                          $event_date = get_field('release_date');
+                          $fancy_date = date('n/d/Y',strtotime($event_date));
+                          echo $fancy_date;
+                          ?>
+                  </div>
+                 <h4><?php the_title(); ?></h4>
+                 <?php echo wpse_custom_excerpts(30); ?>
 
              </div>
+
+
+               
+                <?php endwhile;  ?>  <!-- end the loop -->
             
-          
+          </div>
           
           
           </div> <!-- end right side of page -->
