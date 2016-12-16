@@ -58,7 +58,7 @@ get_header(); ?>
           <div class="col-md-6">
               <div class="opportunities">
                 <div class="opportunities-title">opportunities</div>
-    There are many opportunities to submit to shows throughout the year. For upcoming submissions and to download Submissions Forms, <a href="">CLICK HERE</a>
+    There are many opportunities to submit to shows throughout the year. For upcoming submissions and to download Submissions Forms, <a href="/exhibitions/opportunities-to-submit/">CLICK HERE</a>
                 </div>
           </div>
         </div>
