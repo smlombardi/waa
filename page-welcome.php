@@ -49,6 +49,7 @@ get_header(); ?>
           </div>
   
         </div>
+      
 
         <?php endwhile; ?>
         <?php else: ?>
@@ -58,6 +59,11 @@ get_header(); ?>
         <?php endif; ?>
 
     </div>
+      <div class="row-flex bottom-credit">
+          <div class="photo-credit">
+            <?php the_field('credit'); ?>
+          </div>
+        </div>
 
 </div>
 <!-- end content container -->

@@ -134,9 +134,29 @@ textarea { border-color: #bfbfbf !important; }
 
 .page-welcome .row-flex { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 
-.page-welcome .dmbs-content { min-height: 700px; background-image: url("../images/member-patterson-michael.jpg"); background-repeat: no-repeat; background-position: 50px bottom; margin-bottom: -21px; }
+.page-welcome .dmbs-content { min-height: 700px; background-image: url("../images/member-patterson-michael.jpg"); background-repeat: no-repeat; background-position: 30px bottom; margin-bottom: -21px; position: relative; }
 
 .page-welcome .col-right { width: 315px; margin-right: 60px; }
+
+.page-welcome .col-right .extra-block { margin-top: 60px; }
+
+.page-welcome .col-center { margin-right: 50px; }
+
+.page-welcome .col-center > ul > li:first-child { margin-bottom: 50px; }
+
+.page-welcome .bottom-credit { position: absolute; bottom: 0; right: 30px; }
+
+.page-exhibitions .exhibition-tiles { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.page-exhibitions .exhibition-tiles .tile { margin-right: 15px; margin-bottom: 15px; width: 284px; height: 284px; background-repeat: no-repeat; background-size: cover; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 40px; }
+
+.page-exhibitions .exhibition-tiles .tile .exhibition-title { color: #fff; font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; font-size: 32px; }
+
+.page-exhibitions .exhibition-tiles .tile .exhibition-title a { color: #fff; }
+
+.page-exhibitions .exhibition-tiles .tile .exhibition-title a:hover { text-decoration: none; }
+
+.page-exhibitions .exhibition-tiles .tile .exhibition-subtitle { color: #fff; font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; font-size: 24px; }
 
 .navbar-nav > li > a { color: #6d6e70; text-transform: uppercase; font-size: 12px; padding: 10px 11px; letter-spacing: .0255em; }
 
