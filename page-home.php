@@ -119,7 +119,7 @@
                 </div>
               </div>
 
-              <div class="box-content-row">
+              <div class="box-content-row second-row">
                 <div class="col-left">
                   <div>
                     <h3>Films</h3>

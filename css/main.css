@@ -224,9 +224,11 @@ textarea { border-color: #bfbfbf !important; }
 
 .page-home .waa-study .waa-study-box .box-content { padding: 10px; }
 
-.page-home .waa-study .waa-study-box .box-content h3 { font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; color: #a30723; text-transform: uppercase; }
+.page-home .waa-study .waa-study-box .box-content h3 { font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; color: #a30723; text-transform: uppercase; margin-bottom: 5px; }
 
 .page-home .waa-study .waa-study-box .box-content .box-content-row { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 15px; }
+
+.page-home .waa-study .waa-study-box .box-content .box-content-row.second-row { margin-top: 25px; }
 
 .page-home .waa-study .waa-study-box .box-content .box-content-row > div { width: 50%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 

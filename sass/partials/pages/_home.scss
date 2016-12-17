@@ -120,11 +120,15 @@
           font-family: $helvetica-bold;
           color: $maroon;
           text-transform: uppercase;
+          margin-bottom: 5px;
         }
 
         .box-content-row {
           display: flex;
           margin-top: 15px;
+          &.second-row {
+            margin-top: 25px;
+          }
 
           > div {
             width: 50%;
