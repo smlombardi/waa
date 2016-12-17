@@ -26,7 +26,7 @@
   .dmbs-content {
     form {
       padding: 10px;
-      border: 1px dashed $gray;
+      border: 1px solid $gray;
 
       input[type='submit'] {
         background-color: #fff;
@@ -46,5 +46,11 @@
 
   .address {
     margin-left: 20px;
+  }
+  .gform_title {
+    font-family: $helvetica-light;
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-size: 18px;
   }
 }
