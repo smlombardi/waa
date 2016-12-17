@@ -861,6 +861,12 @@
 		"oAP": "\/page-no_title.php",
 		"oF": 0
 		},
+	"\/page-participate.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-participate.php",
+		"oF": 0
+		},
 	"\/page-press.php": {
 		"ft": 8192,
 		"oA": 2,
