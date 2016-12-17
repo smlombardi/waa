@@ -96,25 +96,25 @@ textarea { border-color: #bfbfbf !important; }
 
 .trustees .trustee-pdf-downloads ul li a { color: #fff; text-transform: uppercase; font-size: 9px; background-color: #6d6e70; padding: 6px 6px 4px; border-radius: 6px; }
 
-.page.page-id-87 h4 { font-weight: bold; font-size: 14px; color: #a30723; }
+.page-participate h4 { font-size: 14px; font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; margin-bottom: 3px; margin-top: 10px; color: #a30723; font-weight: normal; }
 
-.page.page-id-87 .second-column h4 { margin-top: 0; }
+.page-participate .second-column h4 { margin-top: 0; }
 
-.page.page-id-87 ul { padding-left: 1em; }
+.page-participate ul { padding-left: 1em; }
 
-.page.page-id-87 li { margin-bottom: 10px; }
+.page-participate li { margin-bottom: 10px; }
 
-.page.page-id-87 li b { font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; color: #a30723; font-weight: normal; }
+.page-participate li b { font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; color: #a30723; font-weight: normal; }
 
-.page.page-id-87 .dmbs-content form { padding: 10px; border: 1px solid #6d6e70; }
+.page-participate .dmbs-content form { padding: 10px; border: 1px solid #6d6e70; }
 
-.page.page-id-87 .dmbs-content form input[type='submit'] { background-color: #fff; border: 0; color: #a30723; text-transform: uppercase; font-size: 14px; margin-left: 10px; }
+.page-participate .dmbs-content form input[type='submit'] { background-color: #fff; border: 0; color: #a30723; text-transform: uppercase; font-size: 14px; margin-left: 10px; }
 
-.page.page-id-87 .gform_footer { margin-top: 0; padding-top: 0; }
+.page-participate .gform_footer { margin-top: 0; padding-top: 0; }
 
-.page.page-id-87 .address { margin-left: 20px; }
+.page-participate .address { margin-left: 20px; }
 
-.page.page-id-87 .gform_title { font-family: "Helvetica LT Std Light", Helvetica, Arial, sans-serif; text-transform: uppercase; margin-left: 15px; font-size: 18px; }
+.page-participate .gform_title { font-family: "Helvetica LT Std Light", Helvetica, Arial, sans-serif; text-transform: uppercase; margin-left: 15px; font-size: 18px; }
 
 .page-press .dmbs-main h3 { text-transform: uppercase; font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; color: #6d6e70; margin-bottom: 5px; }
 
