@@ -849,6 +849,12 @@
 		"oAP": "\/page-exhibitions.php",
 		"oF": 0
 		},
+	"\/page-history.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-history.php",
+		"oF": 0
+		},
 	"\/page-home.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1959,6 +1965,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/partials\/css\/_exhibitions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/partials\/pages\/_history.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/partials\/css\/_history.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
