@@ -216,6 +216,44 @@ textarea { border-color: #bfbfbf !important; }
 
 .page-home .now-items li a { font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; text-transform: uppercase; }
 
+.page-home .waa-study { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 30px; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.page-home .waa-study .waa-study-box { border: 1px solid #6d6e70; width: 100%; margin-top: 20px; }
+
+.page-home .waa-study .waa-study-box .box-header { background-color: #6d6e70; text-align: center; color: #fff; text-transform: uppercase; font-size: 22px; font-family: Georgia, "Times New Roman", Times, serif; padding: 5px; }
+
+.page-home .waa-study .waa-study-box .box-content { padding: 10px; }
+
+.page-home .waa-study .waa-study-box .box-content h3 { font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; color: #a30723; text-transform: uppercase; }
+
+.page-home .waa-study .waa-study-box .box-content .box-content-row { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 15px; }
+
+.page-home .waa-study .waa-study-box .box-content .box-content-row > div { width: 50%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.page-home .waa-study .waa-study-box .box-content .box-content-row > div.col-left { margin-right: 35px; }
+
+.page-home .waa-study .waa-study-box .box-content .box-content-row > div > p { font-family: Georgia, "Times New Roman", Times, serif; }
+
+.page-home .waa-study .study-item { border: 1px solid #000; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; }
+
+.page-home .waa-study .study-item .si-left { padding: 8px; width: 50%; }
+
+.page-home .waa-study .study-item .si-left h4 { font-size: 14px; }
+
+.page-home .waa-study .study-item .si-left p { margin-bottom: 0; font-size: 12px; }
+
+.page-home .waa-study .study-item .si-left p a { margin-top: 5px; display: block; }
+
+.page-home .waa-study .study-item .si-right { background-repeat: no-repeat; background-size: cover; width: 50%; padding: 0; margin: 0; }
+
+.page-home .waa-study .study-item h4 { margin: 0; }
+
+.page-home .waa-study .study-item .study-item-image { border: 1px solid #000; }
+
+.page-home .waa-study .study-item .content { font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; width: 50%; }
+
+.page-home .waa-study .study-item a { text-transform: uppercase; }
+
 .navbar-nav > li > a { color: #6d6e70; text-transform: uppercase; font-size: 12px; padding: 10px 11px; letter-spacing: .0255em; }
 
 .navbar-nav > li > a:hover { background-color: transparent; }
