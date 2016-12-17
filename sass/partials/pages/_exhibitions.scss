@@ -1,5 +1,4 @@
 .page-exhibitions {
-
   .exhibition-tiles {
     display: flex;
     flex-wrap: wrap;
@@ -37,20 +36,28 @@
       }
     }
   }
-  .caption p {
-    font-size: 20px;
-    line-height: 26px;
-  }
-  .opportunities {
-    font-size: 17px;
-    line-height: 24px;
-    border-left: 6px double $gray;
+
+  .row-bottom {
+    margin-top: 20px;
+
+    .caption p {
+      font-size: 20px;
+      line-height: 26px;
+      margin-right: 20px;
+    }
+
+    .opportunities {
+      font-size: 17px;
+      line-height: 24px;
+      border-left: 6px double $gray;
       padding-left: 10px;
-    .opportunities-title {
-      font-size: 30px;
-      margin-bottom: 5px;
-      text-transform: uppercase;
-      font-family: $twentieth;
+
+      .opportunities-title {
+        font-size: 30px;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        font-family: $twentieth;
+      }
     }
   }
 }

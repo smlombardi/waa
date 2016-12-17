@@ -134,11 +134,11 @@ textarea { border-color: #bfbfbf !important; }
 
 .page-press .byline { font-style: italic; }
 
-.page-press .press-release-block { font-family: Georgia, "Times New Roman", Times, serif; font-size: 13px; }
+.page-press .press-release-block { font-family: Georgia, "Times New Roman", Times, serif; font-size: 13px; margin-bottom: 20px; }
 
 .page-press .press-release-block .date { font-size: 12px; }
 
-.page-press .press-release-block h4 { font-weight: bold; font-size: 14px; }
+.page-press .press-release-block h4 { font-weight: bold; font-size: 14px; margin-top: 5px; margin-bottom: 3px; }
 
 .page-press .press-release-block a { text-transform: uppercase; }
 
@@ -168,11 +168,13 @@ textarea { border-color: #bfbfbf !important; }
 
 .page-exhibitions .exhibition-tiles .tile .exhibition-subtitle { color: #fff; font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; font-size: 24px; }
 
-.page-exhibitions .caption p { font-size: 20px; line-height: 26px; }
+.page-exhibitions .row-bottom { margin-top: 20px; }
 
-.page-exhibitions .opportunities { font-size: 17px; line-height: 24px; border-left: 6px double #6d6e70; padding-left: 10px; }
+.page-exhibitions .row-bottom .caption p { font-size: 20px; line-height: 26px; margin-right: 20px; }
 
-.page-exhibitions .opportunities .opportunities-title { font-size: 30px; margin-bottom: 5px; text-transform: uppercase; font-family: "LTC Twentieth Century Medium", Helvetica, Arial, sans-serif; }
+.page-exhibitions .row-bottom .opportunities { font-size: 17px; line-height: 24px; border-left: 6px double #6d6e70; padding-left: 10px; }
+
+.page-exhibitions .row-bottom .opportunities .opportunities-title { font-size: 30px; margin-bottom: 5px; text-transform: uppercase; font-family: "LTC Twentieth Century Medium", Helvetica, Arial, sans-serif; }
 
 .navbar-nav > li > a { color: #6d6e70; text-transform: uppercase; font-size: 12px; padding: 10px 12px; letter-spacing: .0255em; }
 
@@ -211,4 +213,16 @@ textarea { border-color: #bfbfbf !important; }
 .dmbs-footer h3 { font-family: "LTC Twentieth Century Medium", Helvetica, Arial, sans-serif; color: #a30723; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; font-weight: normal; margin-bottom: 3px; }
 
 .dmbs-footer p { font-size: 12px; line-height: 16px; }
+
+.dmbs-footer .footer-flex { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.dmbs-footer .footer-1 { width: 283px; margin-right: 30px; }
+
+.dmbs-footer .footer-2 { width: 165px; margin-right: 30px; }
+
+.dmbs-footer .footer-3 { width: 155px; margin-right: 30px; }
+
+.dmbs-footer .footer-4 { width: 150px; }
+
+.copyright { font-size: 11px; padding: 20px 0 40px; }
 /*# sourceMappingURL=main.css.map */

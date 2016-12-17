@@ -52,15 +52,21 @@
   .byline {
     font-style: italic;
   }
+
+
+
   .press-release-block {
     font-family: $georgia;
     font-size: 13px;
+    margin-bottom: 20px;
     .date {
       font-size: 12px;
     }
     h4 {
       font-weight: bold;
       font-size: 14px;
+      margin-top: 5px;
+      margin-bottom: 3px;
     }
     a {
       text-transform: uppercase;

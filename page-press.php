@@ -91,7 +91,7 @@ get_header(); ?>
             <h3>Press Releases</h3>
              <div class="news-item-block">
                <?php 
-                $args = array( 'post_type' => 'press_release', 'posts_per_page' => e, 'orderby' => 'date', 'order' => 'DESC' );
+                $args = array( 'post_type' => 'press_release', 'posts_per_page' => 3, 'orderby' => 'date', 'order' => 'DESC' );
                   $loop = new WP_Query( $args );
                   $post_idx = 0;
                   while ( $loop->have_posts() ) : $loop->the_post(); $post_idx++; ?>

@@ -849,6 +849,12 @@
 		"oAP": "\/page-exhibitions.php",
 		"oF": 0
 		},
+	"\/page-home.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-home.php",
+		"oF": 0
+		},
 	"\/page-no_title.php": {
 		"ft": 8192,
 		"oA": 2,

@@ -53,7 +53,7 @@ get_header(); ?>
   
   
         </div>
-        <div class="row">
+        <div class="row row-bottom">
           <div class="col-md-6 caption"><?php the_content(); ?></div>
           <div class="col-md-6">
               <div class="opportunities">
