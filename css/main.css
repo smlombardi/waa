@@ -188,6 +188,34 @@ textarea { border-color: #bfbfbf !important; }
 
 .page-history .image-space-top { margin-top: 35px; }
 
+.page-home .waa-now { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 30px; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-align: center; }
+
+.page-home .waa-now h1 { text-transform: uppercase; font-size: 45px; font-weight: normal; margin-top: 24px; margin-bottom: 5px; }
+
+.page-home .waa-now h2 { font-family: "Helvetica LT Std Light", Helvetica, Arial, sans-serif; font-size: 24px; margin-top: 0; }
+
+.page-home .waa-now h3 { font-family: "Helvetica LT Std Light", Helvetica, Arial, sans-serif; font-size: 27px; margin-top: 0; text-transform: uppercase; }
+
+.page-home .now-items { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin-top: 30px; }
+
+.page-home .now-items li { width: 25%; padding: 20px; border: 1px solid #6d6e70; border-left: 0; }
+
+.page-home .now-items li:first-child { border-left: 1px solid #6d6e70; }
+
+.page-home .now-items li p { font-family: Georgia, "Times New Roman", Times, serif; font-size: 14px; }
+
+.page-home .now-items li .waa-small-gray { margin-top: 15px; }
+
+.page-home .now-items li .type { font-family: Georgia, "Times New Roman", Times, serif; text-transform: uppercase; font-size: 29px; color: #a30723; }
+
+.page-home .now-items li .date { color: #6d6e70; font-family: Georgia, "Times New Roman", Times, serif; font-size: 24px; border-top: 1px solid #6d6e70; border-bottom: 1px solid #6d6e70; padding-bottom: 5px; padding-top: 2px; margin-top: 15px; }
+
+.page-home .now-items li h3 { text-transform: none; font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; font-size: 24px; margin-top: 15px; margin-bottom: 0; }
+
+.page-home .now-items li h4 { font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; font-size: 14px; margin-top: 2px; }
+
+.page-home .now-items li a { font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; text-transform: uppercase; }
+
 .navbar-nav > li > a { color: #6d6e70; text-transform: uppercase; font-size: 12px; padding: 10px 11px; letter-spacing: .0255em; }
 
 .navbar-nav > li > a:hover { background-color: transparent; }
