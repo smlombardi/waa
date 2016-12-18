@@ -861,6 +861,12 @@
 		"oAP": "\/page-home.php",
 		"oF": 0
 		},
+	"\/page-news.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-news.php",
+		"oF": 0
+		},
 	"\/page-no_title.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1995,6 +2001,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/partials\/pages\/_news.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/partials\/css\/_news.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/partials\/pages\/_participate.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2061,6 +2080,12 @@
 		"oAP": "\/searchform.php",
 		"oF": 0
 		},
+	"\/single-profile.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/single-profile.php",
+		"oF": 0
+		},
 	"\/style.css": {
 		"aP": 0,
 		"bl": 0,
@@ -2098,7 +2123,7 @@
 	"creationDate": 503099937,
 	"displayValue": "devdmbootstrap3-sasschild",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-obama"
+	"iconImageName": "meme-doge"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

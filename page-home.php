@@ -89,16 +89,17 @@
                 <div class="col-left">
                   <div>
                     <h3>Lectures</h3>
-                    <p>Throughout the year WAA is proud to present cultural lectures often in conjunction with the current exhibition. Topics include architecture, fine art, global culture and more.</p>
+                    <p>Throughout the year WAA is proud to present cultural lectures often in conjunction with the current exhibition.</p>
                   </div>
 
-                  <div class="study-item">
+                 <div class="study-item">
                     <div class="si-left"><?php the_field('lecture_content'); ?></div>
                     <?php 
                       $bgimage = get_field('lecture_image');
                       echo '<div class="si-right" style="background-image: url(' . $bgimage['url'] . ')"></div>'; 
                       ?>
                   </div>
+
 
                 </div>
 
@@ -137,7 +138,7 @@
                 <div class="col-right">
                   <div>
                     <h3>Field Trips</h3>
-                    <p>Join WAA for a variety of Art Field Trips to the Met, Met Breuer, MoMA, The Whitney, as well as to fine local museums. Check back often for details about upcoming trips.</p>
+                    <p>Join WAA for a variety of Art Field Trips to the Met, Met Breuer, MoMA, The Whitney, as well as to  ne local museums.</p>
                   </div>
 
                   <div class="study-item">

@@ -32,7 +32,7 @@ get_header(); ?>
               <!-- row with the 2 news items -->
               <div class="row">
                 <?php
-                  $args = array( 'post_type' => 'news_item', 'posts_per_page' => 2, 'orderby' => 'date', 'order' => 'DESC' );
+                  $args = array( 'post_type' => 'in_the_news', 'posts_per_page' => 2, 'orderby' => 'date', 'order' => 'DESC' );
                   $loop = new WP_Query( $args );
                   $post_idx = 0;
                   while ( $loop->have_posts() ) : $loop->the_post(); $post_idx++; ?>
@@ -68,7 +68,7 @@ get_header(); ?>
                       
                       </div>
 
-                      <div class="news-link"><a href="">Read More</a> &raquo;</div>
+                      <div class="news-link"><a href="<?php the_field('news_link'); ?>" target="_blank">Read More</a> &raquo;</div>
                     </div>
                   </div>
                 <?php endwhile;  ?>  <!-- end the loop -->

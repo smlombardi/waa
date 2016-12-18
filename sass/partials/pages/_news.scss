@@ -1,0 +1,70 @@
+.page-news {
+  .profile-date {
+    font-size: 12px;
+  }
+
+  .dmbs-main {
+    h3 {
+      text-transform: uppercase;
+      font-family: $helvetica-bold;
+      color: $gray;
+      margin-bottom: 10px;
+    }
+  }
+
+  .profile-hed {
+    font-family: $georgia;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  .profile-dek {
+    font-family: $georgia;
+    font-size: 12px;
+    line-height: 1.33;
+    font-style: italic;
+    margin-top: 3px;
+  }
+
+  .profile-byline {
+    font-family: $georgia;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 3px;
+  }
+
+  .profile-content {
+    margin-top: 15px;
+
+    p {
+      font-family: $georgia;
+    }
+  }
+  .dispatch {
+    margin-bottom: 15px;
+  }
+
+  .dispatch-date {
+    font-size: 12px;
+    font-family: $georgia;
+  }
+
+  .dispatch-hed {
+    font-family: $georgia;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 3px;
+  }
+
+  .dispatch-content {
+    p {
+      font-family: $georgia;
+      font-size: 12px;
+    }
+  }
+}
+
+

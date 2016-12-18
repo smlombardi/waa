@@ -36,7 +36,7 @@ p { font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; font-si
 
 .image-caption { margin-top: 10px; font-size: 10px; line-height: 1.2; margin-bottom: 0; margin-right: 20px; }
 
-.photo-credit { font-family: "Helvetica LT Std Light", Helvetica, Arial, sans-serif; font-size: 9px; margin-bottom: 10px; margin-top: 5px; text-align: right; }
+.photo-credit { font-family: "Helvetica LT Std Light", Helvetica, Arial, sans-serif; font-size: 9px; margin-bottom: 10px; margin-top: 5px; text-align: right; text-transform: uppercase; }
 
 a { color: #a30723; }
 
@@ -188,6 +188,28 @@ textarea { border-color: #bfbfbf !important; }
 
 .page-history .image-space-top { margin-top: 35px; }
 
+.page-news .profile-date { font-size: 12px; }
+
+.page-news .dmbs-main h3 { text-transform: uppercase; font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; color: #6d6e70; margin-bottom: 10px; }
+
+.page-news .profile-hed { font-family: Georgia, "Times New Roman", Times, serif; font-size: 20px; font-weight: bold; margin-top: 5px; }
+
+.page-news .profile-dek { font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; line-height: 1.33; font-style: italic; margin-top: 3px; }
+
+.page-news .profile-byline { font-family: Georgia, "Times New Roman", Times, serif; font-size: 11px; font-weight: bold; text-transform: uppercase; margin-top: 3px; }
+
+.page-news .profile-content { margin-top: 15px; }
+
+.page-news .profile-content p { font-family: Georgia, "Times New Roman", Times, serif; }
+
+.page-news .dispatch { margin-bottom: 15px; }
+
+.page-news .dispatch-date { font-size: 12px; font-family: Georgia, "Times New Roman", Times, serif; }
+
+.page-news .dispatch-hed { font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; font-weight: bold; margin-top: 5px; margin-bottom: 3px; }
+
+.page-news .dispatch-content p { font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; }
+
 .page-home .waa-now { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 30px; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-align: center; }
 
 .page-home .waa-now h1 { text-transform: uppercase; font-size: 45px; font-weight: normal; margin-top: 24px; margin-bottom: 5px; }
@@ -216,11 +238,11 @@ textarea { border-color: #bfbfbf !important; }
 
 .page-home .now-items li a { font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; text-transform: uppercase; }
 
-.page-home .waa-study { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 30px; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.page-home .waa-study { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 30px; margin-bottom: 20px; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
 .page-home .waa-study .waa-study-box { border: 1px solid #6d6e70; width: 100%; margin-top: 20px; }
 
-.page-home .waa-study .waa-study-box .box-header { background-color: #6d6e70; text-align: center; color: #fff; text-transform: uppercase; font-size: 22px; font-family: Georgia, "Times New Roman", Times, serif; padding: 5px; }
+.page-home .waa-study .waa-study-box .box-header { background-color: #6d6e70; text-align: center; color: #fff; text-transform: uppercase; font-size: 22px; font-family: Georgia, "Times New Roman", Times, serif; padding: 5px; letter-spacing: .2em; }
 
 .page-home .waa-study .waa-study-box .box-content { padding: 10px; }
 
@@ -236,7 +258,7 @@ textarea { border-color: #bfbfbf !important; }
 
 .page-home .waa-study .waa-study-box .box-content .box-content-row > div > p { font-family: Georgia, "Times New Roman", Times, serif; }
 
-.page-home .waa-study .study-item { border: 1px solid #000; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; }
+.page-home .waa-study .study-item { border: 1px solid #000; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; font-family: "Helvetica LT Std Roman", Helvetica, Arial, sans-serif; height: 185px; }
 
 .page-home .waa-study .study-item .si-left { padding: 8px; width: 50%; }
 
