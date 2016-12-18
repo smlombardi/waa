@@ -14,9 +14,10 @@
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1-collapse">
                         <span class="sr-only"><?php _e('Toggle navigation','devdmbootstrap3'); ?></span>
+                        <!--<span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>-->
+                        MENU
                     </button>
                 </div>
 

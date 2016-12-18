@@ -1,4 +1,8 @@
 .navbar-nav {
+  @include for-phone-only {
+    margin-left: 15px;
+  }
+
   > li {
     > a {
       color: #6d6e70;
@@ -27,6 +31,9 @@
     &:first-child {
       a {
         padding-left: 0;
+        @include for-phone-only {
+          padding-left: 10px;
+        }
       }
     }
 
@@ -103,3 +110,14 @@
     display: inline-block;
   }
 }
+
+.navbar-toggle .icon-bar {
+  background-color: $maroon;
+}
+.navbar-toggle {
+  border: 1px solid $maroon;
+  color: $maroon;
+  font-family: $georgia;
+  font-weight: bold;
+}
+
