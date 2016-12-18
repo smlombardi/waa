@@ -34,14 +34,18 @@
     margin-top: 30px;
 
     li {
-      // flex-basis: 25%;
-      width: 25%;
+      width: 224px;
       padding: 20px;
       border: 1px solid $gray;
       border-left: 0;
 
       &:first-child {
         border-left: 1px solid $gray;
+      }
+
+      img {
+        width: 184px;
+        height: 147px;
       }
 
       p {

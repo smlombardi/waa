@@ -220,9 +220,11 @@ textarea { border-color: #bfbfbf !important; }
 
 .page-home .now-items { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin-top: 30px; }
 
-.page-home .now-items li { width: 25%; padding: 20px; border: 1px solid #6d6e70; border-left: 0; }
+.page-home .now-items li { width: 224px; padding: 20px; border: 1px solid #6d6e70; border-left: 0; }
 
 .page-home .now-items li:first-child { border-left: 1px solid #6d6e70; }
+
+.page-home .now-items li img { width: 184px; height: 147px; }
 
 .page-home .now-items li p { font-family: Georgia, "Times New Roman", Times, serif; font-size: 14px; }
 
