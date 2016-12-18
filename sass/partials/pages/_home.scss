@@ -12,12 +12,18 @@
       font-weight: normal;
       margin-top: 24px;
       margin-bottom: 5px;
+      @include for-phone-only {
+        font-size: 34px;
+      }
     }
 
     h2 {
       font-family: $helvetica-light;
       font-size: 24px;
       margin-top: 0;
+      @include for-phone-only {
+        font-size: 20px;
+      }
     }
 
     h3 {
@@ -25,6 +31,9 @@
       font-size: 27px;
       margin-top: 0;
       text-transform: uppercase;
+      @include for-phone-only {
+        font-size: 20px;
+      }
     }
   }
 
@@ -32,21 +41,29 @@
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    @include for-phone-only {
+      flex-direction: column;
+    }
 
-    li {
+    > div {
       width: 224px;
       padding: 20px;
       border: 1px solid $gray;
       border-left: 0;
+      @include for-phone-only {
+        width: 100%;
+        border-left: 1px solid $gray;
+        margin-bottom: 10px;
+      }
 
       &:first-child {
         border-left: 1px solid $gray;
       }
 
-      img {
-        width: 184px;
-        height: 147px;
-      }
+      // img {
+      //   width: 184px;
+      //   height: 147px;
+      // }
 
       p {
         font-family: $georgia;
@@ -117,6 +134,10 @@
         font-family: $georgia;
         padding: 5px;
         letter-spacing: .2em;
+        @include for-phone-only {
+          letter-spacing: 0;
+          font-size: 18px;
+        }
       }
 
       .box-content {
@@ -132,6 +153,10 @@
         .box-content-row {
           display: flex;
           margin-top: 15px;
+          @include for-phone-only {
+            flex-direction: column;
+          }
+
           &.second-row {
             margin-top: 25px;
           }
@@ -144,6 +169,14 @@
 
             &.col-left {
               margin-right: 35px;
+            }
+            @include for-phone-only {
+              width: 100%;
+            }
+            &.col-right {
+              @include for-phone-only {
+                margin-top: 20px
+              }
             }
 
             > p {
@@ -160,6 +193,9 @@
       align-items: stretch;
       font-family: $helvetica;
       height: 185px;
+      @include for-phone-only {
+        height: 220px;
+      }
 
       .si-left {
         padding: 8px;
@@ -172,6 +208,7 @@
         p {
           margin-bottom: 0;
           font-size: 12px;
+
           a {
             margin-top: 5px;
             display: block;
