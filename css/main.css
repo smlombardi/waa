@@ -338,7 +338,7 @@ textarea { border-color: #bfbfbf !important; }
 
 .navbar-toggle .icon-bar { background-color: #a30723; }
 
-.navbar-toggle { border: 1px solid #a30723; color: #a30723; font-family: Georgia, "Times New Roman", Times, serif; font-weight: bold; }
+.navbar-toggle { border: 1px solid #a30723; color: #a30723; font-family: Georgia, "Times New Roman", Times, serif; font-weight: bold; float: left; margin-left: 30px; }
 
 .dmbs-footer .footer-rule { background-color: transparent; height: 1px; margin: 20px 0 30px; border-top: 1px solid #6d6e70; }
 
