@@ -170,7 +170,7 @@ textarea { border-color: #bfbfbf !important; }
 
 .page-exhibitions .exhibition-tiles .tile { margin-right: 15px; margin-bottom: 15px; width: 284px; height: 284px; background-repeat: no-repeat; background-size: cover; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 40px; }
 
-.page-exhibitions .exhibition-tiles .tile .exhibition-title { color: #fff; font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; font-size: 32px; }
+.page-exhibitions .exhibition-tiles .tile .exhibition-title { color: #fff; font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; font-size: 32px; line-height: 1; }
 
 .page-exhibitions .exhibition-tiles .tile .exhibition-title a { color: #fff; }
 
