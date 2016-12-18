@@ -38,6 +38,9 @@
   .news-item-block {
     border-top: 4px solid #000;
     padding-top: 10px;
+    @include for-phone-only {
+      margin-bottom: 30px;
+    }
   }
 
   .news-past-link {

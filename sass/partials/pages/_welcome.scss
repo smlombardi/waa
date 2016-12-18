@@ -9,12 +9,22 @@
     background-position: 30px bottom;
     margin-bottom: -21px;
     position: relative;
+    @include for-phone-only {
+      background-image: none;
+      min-height: 0;
+    }
   }
   .col-right {
     width: 315px;
     margin-right: 60px;
+    @include for-phone-only {
+      width: 100%;
+    }
     .extra-block {
       margin-top: 60px;
+      @include for-phone-only {
+        margin-top: 0;
+      }
     }
   }
   .col-center {
@@ -22,10 +32,21 @@
     > ul > li:first-child {
       margin-bottom: 50px;
     }
+    @include for-phone-only {
+      width: 100%;
+      margin-right: 0;
+      > ul > li {
+        margin-bottom: 20px !important;
+      }
+    }
+
   }
   .bottom-credit {
     position: absolute;
     bottom: 0;
     right: 30px;
+    @include for-phone-only {
+      display: none;
+    }
   }
 }

@@ -138,6 +138,8 @@ textarea { border-color: #bfbfbf !important; }
 
 .page-press .news-item-block { border-top: 4px solid #000; padding-top: 10px; }
 
+@media (max-width: 599px) { .page-press .news-item-block { margin-bottom: 30px; } }
+
 .page-press .news-past-link { margin-top: 40px; font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; }
 
 .page-press .news-past-link a { color: #a30723; }
@@ -156,19 +158,32 @@ textarea { border-color: #bfbfbf !important; }
 
 .page-welcome .dmbs-content { min-height: 700px; background-image: url("../images/member-patterson-michael.jpg"); background-repeat: no-repeat; background-position: 30px bottom; margin-bottom: -21px; position: relative; }
 
+@media (max-width: 599px) { .page-welcome .dmbs-content { background-image: none; min-height: 0; } }
+
 .page-welcome .col-right { width: 315px; margin-right: 60px; }
 
+@media (max-width: 599px) { .page-welcome .col-right { width: 100%; } }
+
 .page-welcome .col-right .extra-block { margin-top: 60px; }
+
+@media (max-width: 599px) { .page-welcome .col-right .extra-block { margin-top: 0; } }
 
 .page-welcome .col-center { margin-right: 50px; }
 
 .page-welcome .col-center > ul > li:first-child { margin-bottom: 50px; }
 
+@media (max-width: 599px) { .page-welcome .col-center { width: 100%; margin-right: 0; }
+  .page-welcome .col-center > ul > li { margin-bottom: 20px !important; } }
+
 .page-welcome .bottom-credit { position: absolute; bottom: 0; right: 30px; }
+
+@media (max-width: 599px) { .page-welcome .bottom-credit { display: none; } }
 
 .page-exhibitions .exhibition-tiles { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
 .page-exhibitions .exhibition-tiles .tile { margin-right: 15px; margin-bottom: 15px; width: 284px; height: 284px; background-repeat: no-repeat; background-size: cover; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 40px; }
+
+@media (max-width: 599px) { .page-exhibitions .exhibition-tiles .tile { width: 100%; margin-right: 0; } }
 
 .page-exhibitions .exhibition-tiles .tile .exhibition-title { color: #fff; font-family: "Helvetica LT Std Bold", Helvetica, Arial, sans-serif; font-size: 32px; line-height: 1; }
 
