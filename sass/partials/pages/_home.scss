@@ -18,7 +18,8 @@
     }
 
     h2 {
-      font-family: $helvetica-light;
+      font-family: $sans;
+      font-weight: 300;
       font-size: 24px;
       margin-top: 0;
       @include for-phone-only {
@@ -27,8 +28,9 @@
     }
 
     h3 {
-      font-family: $helvetica-light;
+      font-family: $sans;
       font-size: 27px;
+      font-weight: 300;
       margin-top: 0;
       text-transform: uppercase;
       @include for-phone-only {
@@ -94,20 +96,22 @@
 
       h3 {
         text-transform: none;
-        font-family: $helvetica;
+        font-family: $sans;
         font-size: 24px;
         margin-top: 15px;
         margin-bottom: 0;
       }
 
       h4 {
-        font-family: $helvetica-bold;
+        font-family: $sans;
+        font-weight: bold;
         font-size: 14px;
         margin-top: 2px;
       }
 
       a {
-        font-family: $helvetica-bold;
+        font-family: $sans;
+        font-weight: bold;
         text-transform: uppercase;
       }
     }
@@ -144,10 +148,11 @@
         padding: 10px;
 
         h3 {
-          font-family: $helvetica-bold;
+          font-family: $sans;
           color: $maroon;
           text-transform: uppercase;
           margin-bottom: 5px;
+          font-weight: bold;
         }
 
         .box-content-row {
@@ -191,7 +196,7 @@
       border: 1px solid #000;
       display: flex;
       align-items: stretch;
-      font-family: $helvetica;
+      font-family: $sans;
       height: 185px;
       @include for-phone-only {
         height: 220px;
@@ -233,7 +238,7 @@
       }
 
       .content {
-        font-family: $helvetica;
+        font-family: $sans;
         width: 50%;
       }
 

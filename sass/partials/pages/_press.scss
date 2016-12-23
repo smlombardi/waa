@@ -2,7 +2,8 @@
   .dmbs-main {
     h3 {
       text-transform: uppercase;
-      font-family: $helvetica-bold;
+      font-family: $sans;
+      font-weight: bold;
       color: $gray;
       margin-bottom: 5px;
     }
@@ -14,15 +15,17 @@
   }
 
   .news-source {
-    font-family: $helvetica-bold;
+    font-family: $sans;
+    font-weight: bold;
     font-size: 12px;
     margin-bottom: 2px;
   }
 
   .news-date {
-    font-family: $helvetica-light;
+    font-family: $sans;
     font-size: 12px;
     margin-bottom: 10px;
+    font-weight: 300;
   }
 
   .news-link {
@@ -45,8 +48,8 @@
 
   .news-past-link {
     margin-top: 40px;
-    font-family: $helvetica-bold;
-
+    font-family: $sans;
+    font-weight: bold;
     a {
       color: $maroon;
     }

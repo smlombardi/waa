@@ -8,10 +8,16 @@ function dmbs_dequeue_enqueue_scripts() {
 
     wp_dequeue_style( 'bootstrap.css' );
 
-    
 
 }
 add_action( 'wp_enqueue_scripts', 'dmbs_dequeue_enqueue_scripts', 100 );
+
+function wpb_add_google_fonts() {
+
+wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i', false ); 
+}
+
+add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 
 /**
  * Add HTML5 theme support.

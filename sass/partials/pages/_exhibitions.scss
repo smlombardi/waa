@@ -21,9 +21,10 @@
 
       .exhibition-title {
         color: #fff;
-        font-family: $helvetica-bold;
+        font-family: $sans;
         font-size: 32px;
         line-height: 1;
+        font-weight: bold;
         a {
           color: #fff;
 
@@ -35,7 +36,7 @@
 
       .exhibition-subtitle {
         color: #fff;
-        font-family: $helvetica;
+        font-family: $sans;
         font-size: 24px;
       }
     }
