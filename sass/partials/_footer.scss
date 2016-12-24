@@ -1,21 +1,21 @@
 .dmbs-footer {
   .footer-rule {
-    background-color: transparent;
-    height: 1px;
     margin: 20px 0 30px;
+    height: 1px;
     border-top: 1px solid #6d6e70;
+    background-color: transparent;
   }
   .larger {
     font-size: 15px;
   }
   h3 {
-    font-family: $twentieth;
+    margin-bottom: 3px;
     color: $maroon;
-    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: .04em;
     font-weight: normal;
-    margin-bottom: 3px;
+    font-size: 12px;
+    font-family: $twentieth;
   }
   p {
     font-size: 12px;
@@ -25,22 +25,22 @@
     justify-content: space-between;
   }
   .footer-1 {
-    width: 283px;
     margin-right: 30px;
+    width: 283px;
   }
   .footer-2 {
-    width: 165px;
     margin-right: 30px;
+    width: 165px;
   }
   .footer-3 {
-    width: 155px;
     margin-right: 30px;
+    width: 155px;
   }
   .footer-4 {
     width: 150px;
   }
 }
 .copyright {
-  font-size: 11px;
   padding: 20px 0 40px;
+  font-size: 11px;
 }
