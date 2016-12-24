@@ -5,9 +5,9 @@ $georgia: Georgia, 'Times New Roman', Times, serif;
 $body-text-size: 14px;
 
 body {
+  color: #6d6e70;
   font-family: $sans;
   line-height: 1.2;
-  color: #6d6e70;
 }
 
 h1,
@@ -23,14 +23,14 @@ h5 {
 }
 
 h2.page-header {
-  font-family: $twentieth;
-  color: $maroon;
-  font-size: 50px;
-  line-height: 1.2;
-  padding-bottom: 0;
   margin: -15px 0 10px;
+  padding-bottom: 0;
   border-bottom: 0;
+  color: $maroon;
   font-weight: normal;
+  font-size: 50px;
+  font-family: $twentieth;
+  line-height: 1.2;
 }
 
 .wpb_text_column.page-header {
@@ -38,46 +38,46 @@ h2.page-header {
   border-bottom: 0;
 
   h2 {
-    font-family: $twentieth;
-    color: $maroon;
-    font-size: 50px;
-    line-height: 1.2;
-    padding-bottom: 0;
     margin: 0;
+    padding-bottom: 0;
     border-bottom: 0;
+    color: $maroon;
     font-weight: normal;
+    font-size: 50px;
+    font-family: $twentieth;
+    line-height: 1.2;
   }
 }
 
 h3 {
-  font-family: $sans;
-  font-size: 16px;
   margin-top: 0;
   font-weight: normal;
+  font-size: 16px;
+  font-family: $sans;
 }
 
 p {
-  font-family: $sans;
   font-size: $body-text-size;
+  font-family: $sans;
   line-height: 1.25;
 }
 
 .image-caption {
   margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 0;
   font-size: 10px;
   line-height: 1.2;
-  margin-bottom: 0;
-  margin-right: 20px;
 }
 
 .photo-credit {
-  font-family: $sans;
-  font-weight: 300;
-  font-size: 9px;
-  margin-bottom: 10px;
   margin-top: 5px;
+  margin-bottom: 10px;
   text-align: right;
   text-transform: uppercase;
+  font-weight: 300;
+  font-size: 9px;
+  font-family: $sans;
 }
 
 a {
@@ -89,8 +89,8 @@ a {
 }
 
 .gform_wrapper label.gfield_label {
-  font-weight: normal !important;
   margin-bottom: 0 !important;
+  font-weight: normal !important;
   font-size: 12px !important;
   font-size: inherit;
 }
