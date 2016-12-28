@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "25479",
 "files": {
+	"\/.csscomb.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.csscomb-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.eslintrc.json": {
 		"ft": 524288,
 		"oA": 1,
