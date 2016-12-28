@@ -1,78 +1,71 @@
 .page-press {
   .dmbs-main {
     h3 {
-      text-transform: uppercase;
-      font-family: $sans;
-      font-weight: bold;
-      color: $gray;
       margin-bottom: 5px;
+      color: $gray;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: $sans;
     }
   }
-
   .news-content {
-    font-family: $georgia;
     font-size: 13px;
+    font-family: $georgia;
   }
-
   .news-source {
-    font-family: $sans;
+    margin-bottom: 2px;
     font-weight: bold;
     font-size: 12px;
-    margin-bottom: 2px;
-  }
-
-  .news-date {
     font-family: $sans;
-    font-size: 12px;
+  }
+  .news-date {
     margin-bottom: 10px;
     font-weight: 300;
+    font-size: 12px;
+    font-family: $sans;
   }
-
   .news-link {
     margin-top: 10px;
 
     a {
-      font-family: $georgia;
       color: $maroon;
       text-transform: uppercase;
+      font-family: $georgia;
     }
   }
-
   .news-item-block {
-    border-top: 4px solid #000;
-    padding-top: 10px;
     @include for-phone-only {
       margin-bottom: 30px;
     }
-  }
 
+    padding-top: 10px;
+    border-top: 4px solid #000
+  }
   .news-past-link {
     margin-top: 40px;
-    font-family: $sans;
     font-weight: bold;
+    font-family: $sans;
+
     a {
       color: $maroon;
     }
   }
-
   .byline {
     font-style: italic;
   }
-
-
-
   .press-release-block {
-    font-family: $georgia;
-    font-size: 13px;
     margin-bottom: 20px;
+    font-size: 13px;
+    font-family: $georgia;
+
     .date {
       font-size: 12px;
     }
     h4 {
-      font-weight: bold;
-      font-size: 14px;
       margin-top: 5px;
       margin-bottom: 3px;
+      font-weight: bold;
+      font-size: 14px;
     }
     a {
       text-transform: uppercase;

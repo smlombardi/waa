@@ -1,68 +1,62 @@
 .page-participate {
   h4 {
-    font-size: 14px;
-    line-height: 1.4;
-    font-family: $sans;
-    margin-bottom: 3px;
     margin-top: 10px;
+    margin-bottom: 3px;
     color: $maroon;
     font-weight: normal;
+    font-size: 14px;
+    font-family: $sans;
+    line-height: 1.4;
   }
-
   .middle-column h4 {
     margin-top: 0;
   }
   .left-column img {
     margin-top: 60px;
   }
-
   ul {
     padding-left: 1em;
   }
-
   li {
     margin-bottom: 10px;
 
     b {
-      font-family: $sans;
       color: $maroon;
       font-weight: normal;
+      font-family: $sans;
     }
   }
-
   .gravity-form {
     form {
       padding: 20px;
       border: 1px solid $gray;
 
       input[type='submit'] {
-        background-color: #fff;
+        margin-left: 0;
+        padding: 0;
         border: 0;
+        background-color: #fff;
         color: $maroon;
         text-transform: uppercase;
         font-size: 14px;
-        margin-left: 0;
-        padding: 0;
       }
     }
   }
-
   .gform_footer {
     margin-top: 0;
     padding-top: 0;
   }
-
   .address {
     margin-left: 20px;
   }
   .gform_title {
-    font-family: $sans;
     text-transform: uppercase;
-    font-size: 18px;
     font-weight: 300;
+    font-size: 18px;
+    font-family: $sans;
   }
   blockquote {
-    border-left: 0;
     padding-top: 0;
+    border-left: 0;
   }
 }

@@ -2,40 +2,35 @@
   .profile-date {
     font-size: 12px;
   }
-
   .dmbs-main {
     h3 {
-      text-transform: uppercase;
-      font-family: $sans;
-      font-weight: bold;
-      color: $gray;
       margin-bottom: 10px;
+      color: $gray;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: $sans;
     }
   }
-
   .profile-hed {
-    font-family: $georgia;
-    font-size: 20px;
-    font-weight: bold;
     margin-top: 5px;
-  }
-
-  .profile-dek {
-    font-family: $georgia;
-    font-size: 12px;
-    line-height: 1.33;
-    font-style: italic;
-    margin-top: 3px;
-  }
-
-  .profile-byline {
-    font-family: $georgia;
-    font-size: 11px;
     font-weight: bold;
-    text-transform: uppercase;
-    margin-top: 3px;
+    font-size: 20px;
+    font-family: $georgia;
   }
-
+  .profile-dek {
+    margin-top: 3px;
+    font-style: italic;
+    font-size: 12px;
+    font-family: $georgia;
+    line-height: 1.33;
+  }
+  .profile-byline {
+    margin-top: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: $georgia;
+  }
   .profile-content {
     margin-top: 15px;
 
@@ -46,24 +41,21 @@
   .dispatch {
     margin-bottom: 15px;
   }
-
   .dispatch-date {
     font-size: 12px;
     font-family: $georgia;
   }
-
   .dispatch-hed {
-    font-family: $georgia;
-    font-size: 12px;
-    font-weight: bold;
     margin-top: 5px;
     margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: $georgia;
   }
-
   .dispatch-content {
     p {
-      font-family: $georgia;
       font-size: 12px;
+      font-family: $georgia;
     }
   }
 }

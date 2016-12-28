@@ -1,8 +1,8 @@
 %trustees-column-heads {
-  font-family: $sans;
-  font-size: 14px;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 14px;
+  font-family: $sans;
 }
 
 .trustees {
@@ -10,48 +10,46 @@
 
   .trustee-list {
     p {
+      margin-bottom: 6px;
+      font-weight: 300;
+      font-size: 12px;
       font-family: $sans;
       line-height: 1.33;
-      margin-bottom: 6px;
-      font-size: 12px;
-      font-weight: 300;
+
       i {
+        font-weight: 300;
         font-style: italic;
         font-family: $sans;
-        font-weight: 300;
       }
     }
-
     h4 {
-      font-family: $sans;
-      font-size: 12px;
-      font-weight: 700;
-      margin-bottom: 3px;
       margin-top: 20px;
+      margin-bottom: 3px;
+      font-weight: 700;
+      font-size: 12px;
+      font-family: $sans;
+
       &:first-of-type {
         margin-top: 0;
       }
     }
   }
-
   .col-left {
+    margin-right: 60px;
     width: 475px;
-    margin-right: 60px;
 
     h3 {
       @extend %trustees-column-heads;
     }
   }
-
   .col-main {
-    width: 786px;
     margin-right: 60px;
+    width: 786px;
 
     h3 {
       @extend %trustees-column-heads;
     }
   }
-
   .col-right {
     width: 390px;
 
@@ -59,7 +57,6 @@
       @extend %trustees-column-heads;
     }
   }
-
   .trustee-photos {
     li {
       &:last-child {
@@ -67,27 +64,27 @@
       }
     }
   }
-
   .trustee-pdf-downloads {
-    border-top: 4px solid #000;
-    border-bottom: 4px solid #000;
+    margin-top: 30px;
     padding-top: 10px;
     padding-bottom: 5px;
-    margin-top: 30px;
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+
     ul {
-      list-style: none;
       padding-left: 0;
+      list-style: none;
 
       li {
         margin-bottom: 10px;
 
         a {
+          padding: 6px 6px 4px;
+          border-radius: 6px;
+          background-color: #6d6e70;
           color: #fff;
           text-transform: uppercase;
           font-size: 9px;
-          background-color: #6d6e70;
-          padding: 6px 6px 4px;
-          border-radius: 6px;
         }
       }
     }

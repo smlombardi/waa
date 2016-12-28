@@ -1,189 +1,181 @@
 .page-home {
   .waa-now {
     display: flex;
-    margin-top: 30px;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
     text-align: center;
 
     h1 {
-      text-transform: uppercase;
-      font-size: 45px;
-      font-weight: normal;
-      margin-top: 24px;
-      margin-bottom: 5px;
       @include for-phone-only {
         font-size: 34px;
       }
-    }
 
+      margin-top: 24px;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 45px
+    }
     h2 {
-      font-family: $sans;
+      @include for-phone-only {
+        font-size: 20px;
+      }
+
+      margin-top: 0;
       font-weight: 300;
       font-size: 24px;
-      margin-top: 0;
+      font-family: $sans
+    }
+    h3 {
       @include for-phone-only {
         font-size: 20px;
       }
-    }
 
-    h3 {
-      font-family: $sans;
-      font-size: 27px;
-      font-weight: 300;
       margin-top: 0;
       text-transform: uppercase;
-      @include for-phone-only {
-        font-size: 20px;
-      }
+      font-weight: 300;
+      font-size: 27px;
+      font-family: $sans
     }
   }
-
   .now-items {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
     @include for-phone-only {
       flex-direction: column;
     }
 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
     > div {
-      width: 224px;
-      padding: 20px;
-      border: 1px solid $gray;
-      border-left: 0;
       @include for-phone-only {
+        margin-bottom: 10px;
         width: 100%;
         border-left: 1px solid $gray;
-        margin-bottom: 10px;
       }
+
+      padding: 20px;
+      width: 224px;
+      border: 1px solid $gray;
+      border-left: 0;
 
       &:first-child {
         border-left: 1px solid $gray;
       }
-
       // img {
       //   width: 184px;
       //   height: 147px;
       // }
-
       p {
-        font-family: $georgia;
         font-size: 14px;
+        font-family: $georgia;
       }
-
       .waa-small-gray {
         margin-top: 15px;
       }
-
       .type {
-        font-family: $georgia;
+        color: $maroon;
         text-transform: uppercase;
         font-size: 29px;
-        color: $maroon;
-      }
-
-      .date {
-        color: $gray;
         font-family: $georgia;
-        font-size: 24px;
+      }
+      .date {
+        margin-top: 15px;
+        padding-top: 2px;
+        padding-bottom: 5px;
         border-top: 1px solid $gray;
         border-bottom: 1px solid $gray;
-        padding-bottom: 5px;
-        padding-top: 2px;
-        margin-top: 15px;
-      }
-
-      h3 {
-        text-transform: none;
-        font-family: $sans;
+        color: $gray;
         font-size: 24px;
+        font-family: $georgia;
+      }
+      h3 {
         margin-top: 15px;
         margin-bottom: 0;
-      }
-
-      h4 {
+        text-transform: none;
+        font-size: 24px;
         font-family: $sans;
+      }
+      h4 {
+        margin-top: 2px;
         font-weight: bold;
         font-size: 14px;
-        margin-top: 2px;
-      }
-
-      a {
         font-family: $sans;
-        font-weight: bold;
+      }
+      a {
         text-transform: uppercase;
+        font-weight: bold;
+        font-family: $sans;
       }
     }
   }
-
   .waa-study {
     display: flex;
-    margin-top: 30px;
-    margin-bottom: 20px;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
 
     .waa-study-box {
-      border: 1px solid $gray;
-      width: 100%;
       margin-top: 20px;
+      width: 100%;
+      border: 1px solid $gray;
 
       .box-header {
-        background-color: $gray;
-        text-align: center;
-        color: #fff;
-        text-transform: uppercase;
-        font-size: 22px;
-        font-family: $georgia;
-        padding: 5px;
-        letter-spacing: .2em;
         @include for-phone-only {
           letter-spacing: 0;
           font-size: 18px;
         }
-      }
 
+        padding: 5px;
+        background-color: $gray;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        font-size: 22px;
+        font-family: $georgia
+      }
       .box-content {
         padding: 10px;
 
         h3 {
-          font-family: $sans;
+          margin-bottom: 5px;
           color: $maroon;
           text-transform: uppercase;
-          margin-bottom: 5px;
           font-weight: bold;
+          font-family: $sans;
         }
-
         .box-content-row {
-          display: flex;
-          margin-top: 15px;
           @include for-phone-only {
             flex-direction: column;
           }
 
+          display: flex;
+          margin-top: 15px;
+
           &.second-row {
             margin-top: 25px;
           }
-
           > div {
-            width: 50%;
+            @include for-phone-only {
+              width: 100%;
+            }
+
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            width: 50%;
 
             &.col-left {
               margin-right: 35px;
-            }
-            @include for-phone-only {
-              width: 100%;
             }
             &.col-right {
               @include for-phone-only {
                 margin-top: 20px;
               }
             }
-
             > p {
               font-family: $georgia;
             }
@@ -191,16 +183,16 @@
         }
       }
     }
-
     .study-item {
-      border: 1px solid #000;
-      display: flex;
-      align-items: stretch;
-      font-family: $sans;
-      height: 185px;
       @include for-phone-only {
         height: 220px;
       }
+
+      display: flex;
+      align-items: stretch;
+      height: 185px;
+      border: 1px solid #000;
+      font-family: $sans;
 
       .si-left {
         padding: 8px;
@@ -209,39 +201,33 @@
         h4 {
           font-size: 14px;
         }
-
         p {
           margin-bottom: 0;
           font-size: 12px;
 
           a {
-            margin-top: 5px;
             display: block;
+            margin-top: 5px;
           }
         }
       }
-
       .si-right {
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 50%;
-        padding: 0;
         margin: 0;
+        padding: 0;
+        width: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
       }
-
       h4 {
         margin: 0;
       }
-
       .study-item-image {
         border: 1px solid #000;
       }
-
       .content {
-        font-family: $sans;
         width: 50%;
+        font-family: $sans;
       }
-
       a {
         text-transform: uppercase;
       }

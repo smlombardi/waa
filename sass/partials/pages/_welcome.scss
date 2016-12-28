@@ -3,50 +3,58 @@
     justify-content: flex-end;
   }
   .dmbs-content {
+    @include for-phone-only {
+      min-height: 0;
+      background-image: none;
+    }
+
+    position: relative;
+    margin-bottom: -21px;
     min-height: 700px;
     background-image: url('../images/member-patterson-michael.jpg');
-    background-repeat: no-repeat;
     background-position: 30px bottom;
-    margin-bottom: -21px;
-    position: relative;
-    @include for-phone-only {
-      background-image: none;
-      min-height: 0;
-    }
+    background-repeat: no-repeat
   }
   .col-right {
-    width: 315px;
-    margin-right: 60px;
     @include for-phone-only {
       width: 100%;
     }
+
+    margin-right: 60px;
+    width: 315px;
+
     .extra-block {
-      margin-top: 60px;
       @include for-phone-only {
         margin-top: 0;
       }
+
+      margin-top: 60px
     }
   }
   .col-center {
-    margin-right: 50px;
-    > ul > li:first-child {
-      margin-bottom: 50px;
-    }
     @include for-phone-only {
-      width: 100%;
       margin-right: 0;
+      width: 100%;
+
       > ul > li {
         margin-bottom: 20px !important;
       }
     }
 
+    margin-right: 50px;
+
+    > ul > li:first-child {
+      margin-bottom: 50px;
+    }
+
   }
   .bottom-credit {
-    position: absolute;
-    bottom: 0;
-    right: 30px;
     @include for-phone-only {
       display: none;
     }
+
+    position: absolute;
+    right: 30px;
+    bottom: 0
   }
 }
