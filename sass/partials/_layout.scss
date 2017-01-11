@@ -29,8 +29,8 @@ body {
 
 .vc_column_container > .vc_column-inner {
   box-sizing: border-box;
-  padding-left: 30px;
   padding-right: 30px;
+  padding-left: 30px;
   width: 100%;
 }
 
@@ -40,7 +40,6 @@ body {
       padding-left: 15px;
     }
   }
-
   &:last-child {
     > .vc_column-inner {
       padding-right: 15px;
@@ -49,10 +48,11 @@ body {
 }
 
 .row-flex {
-  display: flex;
   @include for-phone-only {
     flex-direction: column;
   }
+
+  display: flex;
 
   > div {
     @include for-phone-only {
@@ -71,9 +71,9 @@ textarea {
 .ngg-navigation span.next,
 .ngg-navigation span.page-numbers,
 .ngg-navigation span.prev {
-  border: 0 !important;
   margin-right: 0;
   padding: 0;
-  text-decoration: none;
+  border: 0 !important;
   color: $maroon !important;
+  text-decoration: none;
 }

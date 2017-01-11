@@ -5,38 +5,35 @@
 
   > li {
     > a {
+      padding: 10px 13px;
       color: #6d6e70;
       text-transform: uppercase;
-      font-size: 12px;
-      padding: 10px 13px;
       letter-spacing: .04em;
+      font-size: 12px;
 
       &:hover {
         background-color: transparent;
       }
     }
-
     &.current-menu-item {
       a {
         color: $maroon;
       }
     }
-
     &.menu-item-has-children {
       .caret {
         display: none;
       }
     }
-
     &:first-child {
       a {
-        padding-left: 0;
         @include for-phone-only {
           padding-left: 10px;
         }
+
+        padding-left: 0
       }
     }
-
     &:last-child {
       a {
         padding-right: 0;
@@ -46,65 +43,66 @@
 }
 
 .double-rule {
+  margin: 0;
   height: 6px;
   border-top: 1px solid $maroon;
+  border-right: 0;
   border-bottom: 1px solid $maroon;
   border-left: 0;
-  border-right: 0;
   background-color: transparent;
-  margin: 0;
 }
 
 .navbar-collapse {
-  padding-left: 0;
-  padding-right: 0;
   padding-top: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .input-xs {
-  height: 20px;
   padding: 5px;
+  height: 20px;
+  border-color: #b6b7b8;
+  border-radius: 0;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 0;
-  border-color: #b6b7b8;
 }
 
 .waa-header {
-  padding: 15px 0;
-  display: flex;
-  justify-content: space-between;
   @include for-phone-only {
     flex-direction: column;
   }
 
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+
   .header-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 122px;
     @include for-phone-only {
       flex-direction: row;
       width: 100%;
     }
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 122px;
+
     form {
       margin-bottom: 7px;
     }
-
     label {
-      font-size: 9px;
-      font-weight: normal;
-      text-transform: uppercase;
       margin-bottom: 2px;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 9px;
     }
   }
 }
 
 .social-links {
-  list-style: none;
   margin: 0;
   padding: 0;
+  list-style: none;
 
   li {
     display: inline-block;
@@ -115,11 +113,11 @@
   background-color: $maroon;
 }
 .navbar-toggle {
-  border: 1px solid $maroon;
-  color: $maroon;
-  font-family: $georgia;
-  font-weight: bold;
   float: left;
   margin-left: 30px;
+  border: 1px solid $maroon;
+  color: $maroon;
+  font-weight: bold;
+  font-family: $georgia;
 }
 
