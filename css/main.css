@@ -75,8 +75,6 @@ body .gform_wrapper .top_label div.ginput_container { margin-top: 0 !important; 
 
 .trustees .col-left h3, .trustees .col-main h3, .trustees .col-right h3 { text-transform: uppercase; font-weight: bold; font-size: 14px; font-family: "Open Sans", Helvetica, Arial, sans-serif; }
 
-.trustees { margin-top: 20px; }
-
 .trustees .trustee-list p { margin-bottom: 6px; font-weight: 300; font-size: 12px; font-family: "Open Sans", Helvetica, Arial, sans-serif; line-height: 1.33; }
 
 .trustees .trustee-list p i { font-weight: 300; font-style: italic; font-family: "Open Sans", Helvetica, Arial, sans-serif; }
@@ -90,6 +88,8 @@ body .gform_wrapper .top_label div.ginput_container { margin-top: 0 !important; 
 .trustees .col-main { margin-right: 60px; width: 786px; }
 
 .trustees .col-right { width: 390px; }
+
+.trustees .col-right h3 { letter-spacing: 0.08em; word-spacing: .1em; }
 
 .trustees .trustee-photos li:last-child { margin-top: 20px; }
 

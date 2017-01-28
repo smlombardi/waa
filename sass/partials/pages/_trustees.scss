@@ -6,8 +6,6 @@
 }
 
 .trustees {
-  margin-top: 20px;
-
   .trustee-list {
     p {
       margin-bottom: 6px;
@@ -22,6 +20,7 @@
         font-family: $sans;
       }
     }
+
     h4 {
       margin-top: 20px;
       margin-bottom: 3px;
@@ -34,6 +33,7 @@
       }
     }
   }
+
   .col-left {
     margin-right: 60px;
     width: 475px;
@@ -42,6 +42,7 @@
       @extend %trustees-column-heads;
     }
   }
+
   .col-main {
     margin-right: 60px;
     width: 786px;
@@ -50,13 +51,17 @@
       @extend %trustees-column-heads;
     }
   }
+
   .col-right {
     width: 390px;
 
     h3 {
       @extend %trustees-column-heads;
+      letter-spacing: 0.08em;
+      word-spacing: .1em;
     }
   }
+
   .trustee-photos {
     li {
       &:last-child {
@@ -64,6 +69,7 @@
       }
     }
   }
+
   .trustee-pdf-downloads {
     margin-top: 30px;
     padding-top: 10px;
