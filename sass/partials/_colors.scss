@@ -1,4 +1,10 @@
 $maroon: #a30723;
 $bg-outer: #e2e2e2;
 $bg-main: #fff;
-$gray: #6d6e70;
+$gray: #6c6e70;
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-color: $maroon;
+}

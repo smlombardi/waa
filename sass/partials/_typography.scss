@@ -5,7 +5,7 @@ $georgia: Georgia, 'Times New Roman', Times, serif;
 $body-text-size: 14px;
 
 body {
-  color: #6d6e70;
+  color: $gray;
   font-family: $sans;
   line-height: 1.2;
 }
@@ -76,25 +76,12 @@ p {
   text-align: right;
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 9px;
+  font-size: 10px;
   font-family: $sans;
+  color: $gray;
 }
 
 a {
   color: $maroon;
 }
 
-.gform_wrapper h3.gform_title {
-  font-weight: normal !important;
-}
-
-.gform_wrapper label.gfield_label {
-  margin-bottom: 0 !important;
-  font-weight: normal !important;
-  font-size: 12px !important;
-  font-size: inherit;
-}
-
-body .gform_wrapper .top_label div.ginput_container {
-  margin-top: 0 !important;
-}
