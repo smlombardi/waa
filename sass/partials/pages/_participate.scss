@@ -3,7 +3,7 @@
     margin-top: 10px;
     margin-bottom: 3px;
     color: $maroon;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 14px;
     font-family: $sans;
     line-height: 1.4;
@@ -26,26 +26,7 @@
       font-family: $sans;
     }
   }
-  .gravity-form {
-    form {
-      padding: 20px;
-      border: 1px solid $gray;
 
-      input[type='submit'] {
-        margin-left: 0;
-        padding: 0;
-        border: 0;
-        background-color: #fff;
-        color: $maroon;
-        text-transform: uppercase;
-        font-size: 14px;
-      }
-    }
-  }
-  .gform_footer {
-    margin-top: 0;
-    padding-top: 0;
-  }
   .address {
     margin-left: 20px;
   }
