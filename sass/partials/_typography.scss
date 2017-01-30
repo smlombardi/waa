@@ -70,6 +70,24 @@ p {
   line-height: 1.2;
 }
 
+@mixin redbullets {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding-left: 1em;
+    text-indent: -.7em;
+
+    &:before {
+      content: "• ";
+      color: $maroon;
+    }
+  }
+}
+
 .photo-credit {
   margin-top: 5px;
   margin-bottom: 10px;

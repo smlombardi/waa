@@ -8,15 +8,25 @@
     font-family: $sans;
     line-height: 1.4;
   }
-  .middle-column h4 {
-    margin-top: 0;
+
+  .middle-column {
+    @include redbullets;
+    h4 {
+      margin-top: 0;
+    }
   }
+  .right-column {
+    @include redbullets;    
+  }
+
   .left-column img {
     margin-top: 60px;
   }
+
   ul {
     padding-left: 1em;
   }
+
   li {
     margin-bottom: 10px;
 
@@ -30,12 +40,14 @@
   .address {
     margin-left: 20px;
   }
+
   .gform_title {
     text-transform: uppercase;
     font-weight: 300;
     font-size: 18px;
     font-family: $sans;
   }
+
   blockquote {
     padding-top: 0;
     border-left: 0;
