@@ -15,6 +15,7 @@ add_action( 'wp_enqueue_scripts', 'dmbs_dequeue_enqueue_scripts', 100 );
 function wpb_add_google_fonts() {
 
 wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i', false ); 
+wp_enqueue_style( 'wpb-fontawesome', '//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css', false ); 
 }
 
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );

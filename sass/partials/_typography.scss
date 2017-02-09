@@ -103,3 +103,16 @@ a {
   color: $maroon;
 }
 
+.social-links {
+  li {
+    margin-right: 5px;
+    a {
+      color: $gray;
+    }
+    i.fa {
+      font-size: 22px;
+ 
+    }
+  }
+}
+

@@ -30,6 +30,12 @@ p { font-size: 14px; font-family: "Open Sans", Helvetica, Arial, sans-serif; lin
 
 a { color: #a30723; }
 
+.social-links li { margin-right: 5px; }
+
+.social-links li a { color: #6c6e70; }
+
+.social-links li i.fa { font-size: 22px; }
+
 body { background-color: #e2e2e2; }
 
 body > .container { background-color: #fff; }

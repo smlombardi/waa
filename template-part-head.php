@@ -13,11 +13,18 @@
             <?php get_search_form(); ?>
             <div>
                 <label>Follow Us</label>
-                <ul class="social-links">
+                <!--<ul class="social-links">
                     <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social-pinterest.png"></li>
                     <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social-tumblr.png"></li>
                     <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social-linkedin.png"></li>
-                    <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social-facebook.png"></li>             
+                    <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social-facebook.png"></li>    
+                </ul>-->
+                <ul class="social-links">
+                    <li><a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-pinterest-square" aria-hidden="true"></i></a></li>
+     
                 </ul>
             </div>
         </div>
