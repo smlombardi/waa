@@ -20,10 +20,10 @@
                     <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social-facebook.png"></li>    
                 </ul>-->
                 <ul class="social-links">
-                    <li><a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fa fa-pinterest-square" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/WashingtonArtAssociationandGallery/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/washingtonartassociation/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/ArtSince1952"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.pinterest.com/washingtonart/"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a></li>
      
                 </ul>
             </div>
