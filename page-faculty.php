@@ -37,7 +37,7 @@ get_header(); ?>
             <?php get_404_template(); ?>
 
         <?php endif; ?>
-
+        <div class="faculty-grid">
         <?php
             $args=array(
             'post_type' => 'faculty',
@@ -68,9 +68,11 @@ get_header(); ?>
                 </div>
                   <div class="faculty-name"><?php the_title(); ?></div>
                   <div class="faculty-description"><?php the_content(); ?></div>
-                  <div class="faculty-website">
-                    Web Site: <a href="http://<?php the_field('web_site'); ?>"><?php the_field('web_site'); ?></a>
+                  <?php if( get_field('web_site') ): ?>
+                    <div class="faculty-website">
+                      Web Site: <a href="http://<?php the_field('web_site'); ?>"><?php the_field('web_site'); ?></a>
                     </div>
+                  <?php endif; ?>
                 
                 </div>
             </div>
@@ -88,6 +90,7 @@ get_header(); ?>
             }
             wp_reset_query();
             ?>
+            </div>
 
     </div>
 

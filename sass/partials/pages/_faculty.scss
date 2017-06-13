@@ -1,3 +1,18 @@
+.faculty-grid {
+  margin-top: 80px;
+  .row {
+    margin-bottom: 60px;
+  }
+}
+
+// overrides for this page
+.page-faculty {
+  .photo-credit {
+    font-size: 7px;
+    margin-top: 3px;
+  }
+}
+
 .faculty-name {
   font-family: $georgia;
   font-size: 12px;
@@ -16,6 +31,7 @@
 
 .faculty-website,
 .faculty-website p {
+  font-size: 12px;  
   margin-top: 10px;
   a {
     font-weight: bold;
@@ -25,4 +41,5 @@
 
 .faculty-photo {
   width: 125px;
+  margin-bottom: 20px;
 }

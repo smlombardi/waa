@@ -331,15 +331,21 @@ body .gform_wrapper .top_label div.ginput_container { margin-top: 0 !important; 
 
 blockquote { border-left: 0; }
 
+.faculty-grid { margin-top: 80px; }
+
+.faculty-grid .row { margin-bottom: 60px; }
+
+.page-faculty .photo-credit { font-size: 7px; margin-top: 3px; }
+
 .faculty-name { font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; font-weight: bold; margin-bottom: 6px; }
 
 .faculty-description, .faculty-description p, .faculty-website, .faculty-website p { font-family: "Open Sans", Helvetica, Arial, sans-serif; font-size: 12px; line-height: 16px; margin-bottom: 0; }
 
-.faculty-website, .faculty-website p { margin-top: 10px; }
+.faculty-website, .faculty-website p { font-size: 12px; margin-top: 10px; }
 
 .faculty-website a, .faculty-website p a { font-weight: bold; color: #6c6e70; }
 
-.faculty-photo { width: 125px; }
+.faculty-photo { width: 125px; margin-bottom: 20px; }
 
 @media (max-width: 599px) { .navbar-nav { margin-left: 15px; } }
 
