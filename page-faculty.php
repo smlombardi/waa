@@ -58,12 +58,21 @@ get_header(); ?>
             <?php
             }
             ?>
-                <div class="col-md-4">
-                <p><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></p>
-
-                <p><?php the_content(); ?></p>
-                <p><a href="<?php the_field('artist_link'); ?>"><?php the_field('artist_name'); ?></a></p>
-                <p><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><img src="<?php the_field('artist_photo'); ?>" alt="" class="img-responsive" /></a></p>
+            <div class="col-md-4">
+              <div class="faculty-member">
+                <div class="faculty-photo">
+                  <?php the_post_thumbnail( 'full' ); ?>
+                  <div class="photo-credit">
+                    <?php the_field('photo_credit'); ?>
+                  </div>
+                </div>
+                  <div class="faculty-name"><?php the_title(); ?></div>
+                  <div class="faculty-description"><?php the_content(); ?></div>
+                  <div class="faculty-website">
+                    Web Site: <a href="http://<?php the_field('web_site'); ?>"><?php the_field('web_site'); ?></a>
+                    </div>
+                
+                </div>
             </div>
 
             <?php $i++; 

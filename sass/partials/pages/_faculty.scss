@@ -1,0 +1,28 @@
+.faculty-name {
+  font-family: $georgia;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.faculty-description, 
+.faculty-description p,
+.faculty-website,
+.faculty-website p {
+  font-family: $sans;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 0;
+}
+
+.faculty-website,
+.faculty-website p {
+  margin-top: 10px;
+  a {
+    font-weight: bold;
+    color: $gray;
+  }
+}
+
+.faculty-photo {
+  width: 125px;
+}
