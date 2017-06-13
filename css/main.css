@@ -337,7 +337,13 @@ blockquote { border-left: 0; }
 
 .faculty-grid .row { margin-bottom: 30px; }
 
+@media (max-width: 599px) { .faculty-grid .row { margin-bottom: 0; } }
+
+@media (max-width: 599px) { .faculty-grid .row .col-md-4 { margin-bottom: 30px; border-bottom: 1px dotted #6c6e70; padding-bottom: 30px; } }
+
 .faculty-grid .border:not(:last-of-type) { border-bottom: 1px dotted #6c6e70; margin-bottom: 30px; }
+
+@media (max-width: 599px) { .faculty-grid .border:not(:last-of-type) { display: none; } }
 
 .page-faculty .photo-credit { font-size: 7px; margin-top: 3px; }
 

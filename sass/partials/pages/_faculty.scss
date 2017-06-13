@@ -9,15 +9,26 @@
 
   .row {
     margin-bottom: 30px;
+    @include for-phone-only {
+      margin-bottom: 0;
+    }
 
     .col-md-4 {
       // border-left: $dotrule;
+      @include for-phone-only {
+        margin-bottom: 30px;
+        border-bottom: $dotrule;
+        padding-bottom: 30px;
+      }
     }
   }
 
   .border:not(:last-of-type) {
     border-bottom: $dotrule;
     margin-bottom: 30px;
+    @include for-phone-only {
+      display: none;
+    }
   }
 }
 
