@@ -84,3 +84,21 @@ add_filter( 'body_class', 'add_slug_body_class' );
 function wpse_custom_excerpts($limit) {
     return wp_trim_words(get_the_excerpt(), $limit, '&hellip;&nbsp;' . '<a href="'. esc_url( get_permalink() ) . '">'  . __( 'More', 'wpse' ) . '</a>'. '&nbsp;&raquo;');
 }
+
+/**
+ * Order posts by the last word in the post_title. 
+ * Activated when orderby is 'wpse_last_word' 
+ * @link https://wordpress.stackexchange.com/a/198624/26350
+ */
+add_filter( 'posts_orderby', function( $orderby, \WP_Query $q )
+{
+    if( 'wpse_last_word' === $q->get( 'orderby' ) && $get_order =  $q->get( 'order' ) )
+    {
+        if( in_array( strtoupper( $get_order ), ['ASC', 'DESC'] ) )
+        {
+            global $wpdb;
+            $orderby = " SUBSTRING_INDEX( {$wpdb->posts}.post_title, ' ', -1 ) " . $get_order;
+        }
+    }
+    return $orderby;
+}, PHP_INT_MAX, 2 );
