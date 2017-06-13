@@ -80,7 +80,7 @@ get_header(); ?>
             <?php $i++; 
             if($i != 0 && $i % 3 == 0) { ?>
                 </div><!--/.row-->
-                <div class="clearfix"></div>
+                <div class="border"></div>
 
             <?php
             } ?>

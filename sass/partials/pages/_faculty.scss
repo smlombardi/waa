@@ -1,7 +1,23 @@
 .faculty-grid {
-  margin-top: 80px;
+  margin-top: 40px;
+  padding-top: 40px;
+  border-top: $dotrule;
+
+  .vertical-border {
+    border-left: $dotrule;
+  }
+
   .row {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+
+    .col-md-4 {
+      // border-left: $dotrule;
+    }
+  }
+
+  .border:not(:last-of-type) {
+    border-bottom: $dotrule;
+    margin-bottom: 30px;
   }
 }
 
@@ -19,7 +35,8 @@
   font-weight: bold;
   margin-bottom: 6px;
 }
-.faculty-description, 
+
+.faculty-description,
 .faculty-description p,
 .faculty-website,
 .faculty-website p {
@@ -31,8 +48,9 @@
 
 .faculty-website,
 .faculty-website p {
-  font-size: 12px;  
+  font-size: 12px;
   margin-top: 10px;
+
   a {
     font-weight: bold;
     color: $gray;

@@ -331,9 +331,13 @@ body .gform_wrapper .top_label div.ginput_container { margin-top: 0 !important; 
 
 blockquote { border-left: 0; }
 
-.faculty-grid { margin-top: 80px; }
+.faculty-grid { margin-top: 40px; padding-top: 40px; border-top: 1px dotted #6c6e70; }
 
-.faculty-grid .row { margin-bottom: 60px; }
+.faculty-grid .vertical-border { border-left: 1px dotted #6c6e70; }
+
+.faculty-grid .row { margin-bottom: 30px; }
+
+.faculty-grid .border:not(:last-of-type) { border-bottom: 1px dotted #6c6e70; margin-bottom: 30px; }
 
 .page-faculty .photo-credit { font-size: 7px; margin-top: 3px; }
 
