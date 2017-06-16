@@ -1,4 +1,4 @@
-<?php 
+<?php
 /* template name: Faculty */
 
 get_header(); ?>
@@ -13,23 +13,23 @@ get_header(); ?>
     <div class="col-md-<?php devdmbootstrap3_main_content_width(); ?> dmbs-main">
 
         <?php // theloop
-        if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        if (have_posts()) : while (have_posts()) : the_post(); ?>
 
             <h2 class="page-header"><?php the_title() ;?></h2>
 
         <div class="row">
             <div class="col-md-12">
                 <?php the_content(); ?>
-              
+
             </div>
 
-           
-            
-        </div>
-          
 
-        <?php 
-        endwhile; 
+
+        </div>
+
+
+        <?php
+        endwhile;
         ?>
 
         <?php else: ?>
@@ -49,43 +49,46 @@ get_header(); ?>
             );
             $my_query = null;
             $my_query = new WP_Query($args);
-            if( $my_query->have_posts() ) {
+            if ($my_query->have_posts()) {
                 echo '';
-            $i = 0;
-            while ($my_query->have_posts()) : $my_query->the_post();
-                if($i % 3 == 0) { ?> 
+                $i = 0;
+                while ($my_query->have_posts()) : $my_query->the_post();
+                if ($i % 3 == 0) {
+                    ?>
                 <div class="row">
             <?php
-            }
-            ?>
+
+                } ?>
             <div class="col-md-4">
               <div class="faculty-member">
                 <div class="faculty-photo">
-                  <?php the_post_thumbnail( 'full' ); ?>
+                  <?php the_post_thumbnail('full'); ?>
                   <div class="photo-credit">
                     <?php the_field('photo_credit'); ?>
                   </div>
                 </div>
                   <div class="faculty-name"><?php the_title(); ?></div>
                   <div class="faculty-description"><?php the_content(); ?></div>
-                  <?php if( get_field('web_site') ): ?>
+                  <?php if (get_field('web_site')): ?>
                     <div class="faculty-website">
                       Web Site: <a href="http://<?php the_field('web_site'); ?>"><?php the_field('web_site'); ?></a>
                     </div>
                   <?php endif; ?>
-                
+
                 </div>
             </div>
 
-            <?php $i++; 
-            if($i != 0 && $i % 3 == 0) { ?>
+            <?php $i++;
+                if ($i != 0 && $i % 3 == 0) {
+                    ?>
                 </div><!--/.row-->
                 <div class="border"></div>
 
             <?php
-            } ?>
 
-            <?php  
+                } ?>
+
+            <?php
             endwhile;
             }
             wp_reset_query();
@@ -94,7 +97,7 @@ get_header(); ?>
 
     </div>
 
- 
+
 
 </div>
 <!-- end content container -->
