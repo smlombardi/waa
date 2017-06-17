@@ -27,6 +27,7 @@ h2.page-header {
   padding-bottom: 0;
   border-bottom: 0;
   color: $maroon;
+  text-transform: uppercase;
   font-weight: normal;
   font-size: 50px;
   font-family: $twentieth;
@@ -111,8 +112,7 @@ a {
     }
     i.fa {
       font-size: 22px;
- 
+
     }
   }
 }
-

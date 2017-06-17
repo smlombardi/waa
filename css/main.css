@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5 { font-weight: normal; }
 
 h1 b, h2 b, h3 b, h4 b, h5 b { font-weight: normal; }
 
-h2.page-header { margin: -15px 0 10px; padding-bottom: 0; border-bottom: 0; color: #a30723; font-weight: normal; font-size: 50px; font-family: "LTC Twentieth Century Medium", Helvetica, Arial, sans-serif; line-height: 1.2; }
+h2.page-header { margin: -15px 0 10px; padding-bottom: 0; border-bottom: 0; color: #a30723; text-transform: uppercase; font-weight: normal; font-size: 50px; font-family: "LTC Twentieth Century Medium", Helvetica, Arial, sans-serif; line-height: 1.2; }
 
 .wpb_text_column.page-header { margin: 0; border-bottom: 0; }
 
@@ -378,6 +378,42 @@ blockquote { border-left: 0; }
 .faculty-website a, .faculty-website p a { font-weight: bold; color: #6c6e70; }
 
 .faculty-photo { width: 125px; margin-bottom: 20px; }
+
+.page-classes .tbd { text-align: center; padding: 60px; background-color: #eee; }
+
+.page-classes .subhead-boxed { margin: 20px 0; padding: 10px; color: #fff; background-color: #a30723; text-align: center; }
+
+.page-classes .subhead-boxed h2 { margin: 0; font-size: 30px; font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+
+.page-classes .subhead-boxed h2 .smaller { font-size: 18px; }
+
+.page-classes .lower-text { margin: 20px 0; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+
+.page-classes .lower-text .lower-text-left { min-width: 256px; margin-right: 40px; }
+
+.page-classes .lower-text .lower-text-right p { font-size: 14px; line-height: 18px; }
+
+.page-classes .exhibition-tiles { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.page-classes .exhibition-tiles .tile { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin-right: 15px; margin-bottom: 15px; padding: 40px; width: 284px; height: 284px; background-size: cover; background-repeat: no-repeat; }
+
+@media (max-width: 599px) { .page-classes .exhibition-tiles .tile { margin-right: 0; width: 100%; } }
+
+.page-classes .exhibition-tiles .tile .exhibition-title { color: #fff; font-weight: bold; font-size: 32px; font-family: "Open Sans", Helvetica, Arial, sans-serif; line-height: 1; }
+
+.page-classes .exhibition-tiles .tile .exhibition-title a { color: #fff; }
+
+.page-classes .exhibition-tiles .tile .exhibition-title a:hover { text-decoration: none; }
+
+.page-classes .exhibition-tiles .tile .exhibition-subtitle { color: #fff; font-size: 24px; font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+
+.page-classes .row-bottom { margin-top: 20px; }
+
+.page-classes .row-bottom .caption p { margin-right: 20px; font-size: 20px; line-height: 26px; }
+
+.page-classes .row-bottom .opportunities { padding-left: 10px; border-left: 6px double #6c6e70; font-size: 17px; line-height: 24px; }
+
+.page-classes .row-bottom .opportunities .opportunities-title { margin-bottom: 5px; text-transform: uppercase; font-size: 30px; font-family: "LTC Twentieth Century Medium", Helvetica, Arial, sans-serif; }
 
 @media (max-width: 599px) { .navbar-nav { margin-left: 15px; } }
 

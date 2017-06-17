@@ -690,6 +690,12 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/page-classes.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-classes.php",
+		"oF": 0
+		},
 	"\/page-education.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1830,6 +1836,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/css\/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/partials\/pages\/_classes.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/partials\/css\/_classes.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
