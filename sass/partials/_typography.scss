@@ -32,6 +32,9 @@ h2.page-header {
   font-size: 50px;
   font-family: $twentieth;
   line-height: 1.2;
+  @include for-phone-only {
+    font-size: 40px;
+  }
 }
 
 .wpb_text_column.page-header {
@@ -64,10 +67,10 @@ p {
 }
 
 .image-caption {
-  margin-top: 10px;
+  margin-top: 5px;
   margin-right: 20px;
   margin-bottom: 0;
-  font-size: 10px;
+  font-size: 9px;
   line-height: 1.2;
 }
 

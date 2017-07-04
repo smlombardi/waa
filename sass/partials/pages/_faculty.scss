@@ -56,6 +56,11 @@
   line-height: 16px;
   margin-bottom: 0;
 }
+.faculty-description p {
+  &:not(:first-of-type) {
+    text-indent: 10px;
+  }
+}
 
 .faculty-website,
 .faculty-website p {

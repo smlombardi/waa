@@ -16,6 +16,8 @@ h1 b, h2 b, h3 b, h4 b, h5 b { font-weight: normal; }
 
 h2.page-header { margin: -15px 0 10px; padding-bottom: 0; border-bottom: 0; color: #a30723; text-transform: uppercase; font-weight: normal; font-size: 50px; font-family: "LTC Twentieth Century Medium", Helvetica, Arial, sans-serif; line-height: 1.2; }
 
+@media (max-width: 599px) { h2.page-header { font-size: 40px; } }
+
 .wpb_text_column.page-header { margin: 0; border-bottom: 0; }
 
 .wpb_text_column.page-header h2 { margin: 0; padding-bottom: 0; border-bottom: 0; color: #a30723; font-weight: normal; font-size: 50px; font-family: "LTC Twentieth Century Medium", Helvetica, Arial, sans-serif; line-height: 1.2; }
@@ -24,7 +26,7 @@ h3 { margin-top: 0; font-weight: normal; font-size: 16px; font-family: "Open San
 
 p { font-size: 14px; font-family: "Open Sans", Helvetica, Arial, sans-serif; line-height: 1.25; }
 
-.image-caption { margin-top: 10px; margin-right: 20px; margin-bottom: 0; font-size: 10px; line-height: 1.2; }
+.image-caption { margin-top: 5px; margin-right: 20px; margin-bottom: 0; font-size: 9px; line-height: 1.2; }
 
 .photo-credit { margin-top: 5px; margin-bottom: 10px; text-align: right; text-transform: uppercase; font-weight: 300; font-size: 10px; font-family: "Open Sans", Helvetica, Arial, sans-serif; color: #6c6e70; }
 
@@ -70,15 +72,19 @@ textarea { border-color: #bfbfbf !important; }
 
 .gform_wrapper select { padding-right: 22px; -webkit-appearance: none; background: #fff url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAxNiAyMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+ZHJvcGFycm93PC90aXRsZT48cGF0aCBkPSJNMCA3LjM0NGgxMC41bC01LjI1IDUuNTY2LTUuMjUtNS41NjV6IiBmaWxsPSIjNGU0ZTRlIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=") right center no-repeat !important; border: 1px solid #bfbfbf; border-radius: 0; padding: 9px 12px; height: 33px; line-height: 1; }
 
-.gform_button.button { color: #a30723; text-transform: uppercase; -moz-appearance: none; -webkit-appearance: none; background-color: #fff; border: 0; padding: 0; }
+.gform_wrapper input[type="text"] { border: 1px solid #bfbfbf; }
+
+.gform_button.button { color: #a30723; font-weight: bold; text-transform: uppercase; -moz-appearance: none; -webkit-appearance: none; background-color: #fff; border: 0; padding: 0; }
 
 .gform_wrapper .gform_footer { padding: 0; margin: 5px 0 0; clear: both; width: 100%; }
 
 .gform_wrapper h3.gform_title { font-weight: normal !important; }
 
-.gform_wrapper label.gfield_label { margin-bottom: 0 !important; font-weight: normal !important; font-size: 12px !important; font-size: inherit; }
+.gform_wrapper label.gfield_label { margin-bottom: 0 !important; font-size: 12px !important; font-size: inherit; }
 
 body .gform_wrapper .top_label div.ginput_container { margin-top: 0 !important; }
+
+.ginput_complex label, .ginput_container_radio label { font-weight: normal; }
 
 .trustees .col-left h3, .trustees .col-main h3, .trustees .col-right h3 { text-transform: uppercase; font-weight: bold; font-size: 14px; font-family: "Open Sans", Helvetica, Arial, sans-serif; }
 
@@ -372,6 +378,8 @@ blockquote { border-left: 0; }
 .faculty-name { font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; font-weight: bold; margin-bottom: 6px; }
 
 .faculty-description, .faculty-description p, .faculty-website, .faculty-website p { font-family: "Open Sans", Helvetica, Arial, sans-serif; font-size: 12px; line-height: 16px; margin-bottom: 0; }
+
+.faculty-description p:not(:first-of-type) { text-indent: 10px; }
 
 .faculty-website, .faculty-website p { font-size: 12px; margin-top: 10px; }
 

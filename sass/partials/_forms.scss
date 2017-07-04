@@ -26,8 +26,13 @@
   line-height: 1;
 }
 
+.gform_wrapper input[type="text"] {
+  border: 1px solid #bfbfbf;
+}
+
 .gform_button.button {
   color: $maroon;
+  font-weight: bold;
   text-transform: uppercase;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -49,11 +54,15 @@
 
 .gform_wrapper label.gfield_label {
   margin-bottom: 0 !important;
-  font-weight: normal !important;
+  // font-weight: normal !important;
   font-size: 12px !important;
   font-size: inherit;
 }
 
 body .gform_wrapper .top_label div.ginput_container {
   margin-top: 0 !important;
+}
+
+.ginput_complex label, .ginput_container_radio label {
+  font-weight: normal;
 }
