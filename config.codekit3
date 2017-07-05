@@ -696,6 +696,12 @@
 		"oAP": "\/page-classes.php",
 		"oF": 0
 		},
+	"\/page-donate.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-donate.php",
+		"oF": 0
+		},
 	"\/page-education.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -724,6 +730,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-home.php",
+		"oF": 0
+		},
+	"\/page-membership.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-membership.php",
 		"oF": 0
 		},
 	"\/page-news.php": {
@@ -1849,6 +1861,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/partials\/css\/_classes.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/partials\/pages\/_donate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/partials\/css\/_donate.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
