@@ -14,8 +14,8 @@ add_action( 'wp_enqueue_scripts', 'dmbs_dequeue_enqueue_scripts', 100 );
 
 function wpb_add_google_fonts() {
 
-wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i', false ); 
-wp_enqueue_style( 'wpb-fontawesome', '//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css', false ); 
+wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i', false );
+wp_enqueue_style( 'wpb-fontawesome', '//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css', false );
 }
 
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
@@ -86,8 +86,8 @@ function wpse_custom_excerpts($limit) {
 }
 
 /**
- * Order posts by the last word in the post_title. 
- * Activated when orderby is 'wpse_last_word' 
+ * Order posts by the last word in the post_title.
+ * Activated when orderby is 'wpse_last_word'
  * @link https://wordpress.stackexchange.com/a/198624/26350
  */
 add_filter( 'posts_orderby', function( $orderby, \WP_Query $q )
@@ -102,3 +102,25 @@ add_filter( 'posts_orderby', function( $orderby, \WP_Query $q )
     }
     return $orderby;
 }, PHP_INT_MAX, 2 );
+
+
+/// customize woocommerce single product Page
+
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 10);
+
+remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20);
+remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10);
+
+function sml_product_description() {
+  $content = get_the_content();
+  $content = apply_filters( 'the_content', $content );
+  echo('<div class="description">' . $content . '</div>');
+}
+add_action( 'woocommerce_single_product_summary', 'sml_product_description', 7 );
+
+function sml_instructor() {
+  $instructor = get_field('instructor');
+  echo('<p class="instructor">with <b>' . $instructor . '</b></p>');
+}
+add_action( 'woocommerce_single_product_summary', 'sml_instructor', 6 );

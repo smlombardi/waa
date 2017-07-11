@@ -1852,6 +1852,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/partials\/pages\/_class-details.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/partials\/css\/_class-details.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/partials\/pages\/_classes.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2070,6 +2083,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce.php",
+		"oF": 0
+		},
+	"\/woocommerce\/content-single-product.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/content-single-product.php",
+		"oF": 0
+		},
+	"\/woocommerce\/templates\/single-product.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/templates\/single-product.php",
 		"oF": 0
 		}
 	},

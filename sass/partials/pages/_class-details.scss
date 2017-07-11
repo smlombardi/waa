@@ -1,0 +1,20 @@
+.single-product {
+  .quantity {
+    display: none !important;
+  }
+  .variations {
+    .label {
+      display: none;
+    }
+  }
+  .product_title.entry-title {
+    color: $maroon;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 18px;
+    margin-bottom: 2px;
+  }
+  .instructor {
+    margin-bottom: 30px;
+  }
+}
