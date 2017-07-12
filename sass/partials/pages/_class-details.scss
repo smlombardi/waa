@@ -52,3 +52,9 @@
   color: $gray !important;
   font-size: 16px;
 }
+
+
+  .woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+    float: right;
+    width: 46%;
+  }
