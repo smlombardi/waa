@@ -104,14 +104,23 @@ add_filter( 'posts_orderby', function( $orderby, \WP_Query $q )
 }, PHP_INT_MAX, 2 );
 
 
-/// customize woocommerce single product Page
+/////// CUSTOMIZE WOOCOMMERCE SINGLE PRODUCT PAGE  /////////////
 
+// remove stuff with hooks
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 10);
 
 remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20);
 remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10);
 
+// button
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'woo_custom_cart_button_text' );    // 2.1 +
+
+function woo_custom_cart_button_text() {
+  return __( 'REGISTER', 'woocommerce' );
+}
+
+// custom hooks
 function sml_product_description() {
   $content = get_the_content();
   $content = apply_filters( 'the_content', $content );

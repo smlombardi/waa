@@ -435,6 +435,20 @@ blockquote { border-left: 0; }
 
 .single-product .instructor { margin-bottom: 30px; }
 
+.single-product .description, .single-product .description p { font-family: "Open Sans", Helvetica, Arial, sans-serif; font-size: 14px; line-height: 18px; margin-bottom: 6px; }
+
+.single-product .woocommerce-variation-price { margin-bottom: 20px; }
+
+.single-product .single_add_to_cart_button.button.alt { color: #a30723; background-color: #fff; border: 1px solid #a30723; }
+
+.single-product .single_add_to_cart_button.button.alt.disabled { background-color: #fff; color: #a30723; }
+
+.single-product .single_add_to_cart_button.button.alt.disabled:hover { background-color: #fff; color: #a30723; }
+
+.single-product .single_add_to_cart_button.button.alt:hover { color: #fff; background-color: #a30723; }
+
+.woocommerce div.product p.price, .woocommerce div.product span.price { color: #6c6e70 !important; font-size: 16px; }
+
 @media (max-width: 599px) { .navbar-nav { margin-left: 15px; } }
 
 .navbar-nav > li > a { padding: 10px 11px; color: #6d6e70; text-transform: uppercase; letter-spacing: .04em; font-size: 12px; }

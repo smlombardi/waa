@@ -2091,10 +2091,10 @@
 		"oAP": "\/woocommerce\/content-single-product.php",
 		"oF": 0
 		},
-	"\/woocommerce\/templates\/single-product.php": {
+	"\/woocommerce\/single-product\/add-to-cart\/variable.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/woocommerce\/templates\/single-product.php",
+		"oAP": "\/woocommerce\/single-product\/add-to-cart\/variable.php",
 		"oF": 0
 		}
 	},
